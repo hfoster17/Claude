@@ -38,6 +38,10 @@ docker/.env
 nt8/bin/
 nt8/obj/
 
+# Release artifacts
+dist/
+*.zip
+
 # Test artifacts
 .pytest_cache/
 htmlcov/
