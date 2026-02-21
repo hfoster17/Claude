@@ -1,0 +1,102 @@
+# Multi-Regime Trading Engine Configuration
+
+server:
+  host: "127.0.0.1"
+  port: 5555
+  status_file: "engine_status.json"
+  status_interval_s: 5
+
+models:
+  directory: "models"
+  hot_reload_poll_s: 5.0
+
+data:
+  directory: "data"
+  nt8_export_dir: ""  # Set to NT8 export path to enable watcher
+
+training:
+  k: 3
+  n_restarts: 5
+  max_iter: 200
+  tol: 0.0001
+  min_training_bars: 500
+  warmup_bars: 100
+
+scheduler:
+  retrain_time: "02:00"
+  drift_check_interval_min: 30
+  enabled: true
+
+drift:
+  window: 500
+  occupancy_threshold: 0.3
+  transition_kl_threshold: 0.5
+  likelihood_drop_threshold: 0.2
+  feature_ks_threshold: 0.15
+
+logging:
+  level: "INFO"
+  directory: "logs"
+  max_bytes: 10485760  # 10 MB
+  backup_count: 5
+
+symbols:
+  - NQ
+  - ES
+  - CL
+  - NG
+  - GC
+  - SI
+  - ZB
+
+# Instrument profiles (used by training and engine)
+profiles:
+  NQ:
+    k: 3
+    tick_size: 0.25
+    point_value: 20.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/Chicago"
+  ES:
+    k: 3
+    tick_size: 0.25
+    point_value: 50.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/Chicago"
+  CL:
+    k: 3
+    tick_size: 0.01
+    point_value: 1000.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/New_York"
+  NG:
+    k: 3
+    tick_size: 0.001
+    point_value: 10000.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/New_York"
+  GC:
+    k: 3
+    tick_size: 0.10
+    point_value: 100.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/New_York"
+  SI:
+    k: 3
+    tick_size: 0.005
+    point_value: 5000.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/New_York"
+  ZB:
+    k: 3
+    tick_size: 0.03125
+    point_value: 1000.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/Chicago"

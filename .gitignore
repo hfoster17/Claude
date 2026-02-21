@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Models and data (large files)
+models/*.json
+!models/.gitkeep
+data/*.csv
+data/*.parquet
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/.env
+
+# NT8 compiled
+nt8/bin/
+nt8/obj/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage

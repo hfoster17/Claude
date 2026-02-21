@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HMM Model Schema v2",
+  "description": "Schema for serialized Gaussian HMM model used by Multi-Regime Trading Stack",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "symbol",
+    "k",
+    "n_features",
+    "initial_probs",
+    "transition_matrix",
+    "means",
+    "variances",
+    "feature_mean",
+    "feature_std",
+    "regime_labels",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 2,
+      "description": "Schema version. Must be 2 for this format."
+    },
+    "symbol": {
+      "type": "string",
+      "enum": ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB"],
+      "description": "Instrument symbol"
+    },
+    "k": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 10,
+      "description": "Number of hidden states"
+    },
+    "n_features": {
+      "type": "integer",
+      "const": 6,
+      "description": "Number of features in observation vector"
+    },
+    "initial_probs": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0, "maximum": 1 },
+      "description": "Initial state probability vector [k]"
+    },
+    "transition_matrix": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "description": "State transition probability matrix [k x k]"
+    },
+    "means": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "number" }
+      },
+      "description": "Emission mean vectors [k x n_features]"
+    },
+    "variances": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "number", "minimum": 0 }
+      },
+      "description": "Emission variance vectors (diagonal) [k x n_features]"
+    },
+    "feature_mean": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "Training feature means for z-scoring [n_features]"
+    },
+    "feature_std": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0 },
+      "description": "Training feature stds for z-scoring [n_features]"
+    },
+    "regime_labels": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Human-readable regime labels [k]"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["trained_at", "training_bars", "log_likelihood", "converged"],
+      "properties": {
+        "trained_at": { "type": "string", "format": "date-time" },
+        "training_bars": { "type": "integer", "minimum": 1 },
+        "log_likelihood": { "type": "number" },
+        "converged": { "type": "boolean" },
+        "data_start": { "type": "string" },
+        "data_end": { "type": "string" },
+        "n_iterations": { "type": "integer" },
+        "random_restarts": { "type": "integer" }
+      }
+    }
+  }
+}
