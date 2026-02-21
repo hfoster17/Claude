@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MultiRegimeWorkspace.xml — NinjaTrader 8 Workspace Template
+
+  INSTALL: Copy to Documents\NinjaTrader 8\workspaces\
+  Then: File → Open Workspace → MultiRegimeWorkspace
+
+  This workspace creates 8 charts (one per instrument) with the
+  MultiRegimeStrategy applied. Customize chart intervals and
+  indicators after loading.
+-->
+<Workspace Name="MultiRegimeWorkspace" Version="8.1">
+  <WindowLayout>
+    <!-- 4x2 grid layout for 8 instrument charts -->
+    <Grid Rows="2" Columns="4">
+      <!-- Row 1: Index + Energy -->
+      <Cell Row="0" Col="0">
+        <Chart Instrument="NQ 03-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="NQ — Nasdaq 100 E-mini">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="Host" Value="127.0.0.1" />
+            <Property Name="Port" Value="5555" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+          <Indicator Name="RSI" Period="14" />
+          <Indicator Name="ATR" Period="14" />
+        </Chart>
+      </Cell>
+      <Cell Row="0" Col="1">
+        <Chart Instrument="ES 03-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="ES — S&amp;P 500 E-mini">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+      <Cell Row="0" Col="2">
+        <Chart Instrument="CL 04-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="CL — Crude Oil">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+      <Cell Row="0" Col="3">
+        <Chart Instrument="NG 04-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="NG — Natural Gas">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+      <!-- Row 2: Metals + Bonds -->
+      <Cell Row="1" Col="0">
+        <Chart Instrument="GC 04-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="GC — Gold">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+      <Cell Row="1" Col="1">
+        <Chart Instrument="SI 05-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="SI — Silver">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+      <Cell Row="1" Col="2">
+        <Chart Instrument="ZB 03-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="ZB — 30-Year T-Bond">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+      <Cell Row="1" Col="3">
+        <Chart Instrument="UB 03-26" BarsPeriodType="Minute" BarsPeriodValue="5"
+               DaysBack="5" Title="UB — Ultra T-Bond">
+          <Strategy Name="MultiRegimeStrategy">
+            <Property Name="UseAutoProfile" Value="True" />
+            <Property Name="EnableExternalEngine" Value="True" />
+            <Property Name="EnableOrderFlowFilter" Value="True" />
+            <Property Name="StrategyModeIndex" Value="0" />
+          </Strategy>
+        </Chart>
+      </Cell>
+    </Grid>
+  </WindowLayout>
+
+  <!--
+    NOTE: NinjaTrader 8 workspace files use a proprietary binary format.
+    This XML is a TEMPLATE showing the intended configuration. To create
+    the actual workspace:
+
+    1. Open NinjaTrader 8
+    2. Create 8 charts manually (one per instrument, 5-min bars)
+    3. Apply MultiRegimeStrategy to each chart
+    4. Configure properties per the DEPLOYMENT_GUIDE.md
+    5. Save workspace: File → Save Workspace As → "MultiRegimeWorkspace"
+
+    Contract months (03-26, 04-26, etc.) will need to be updated to the
+    current front month when you set this up.
+  -->
+</Workspace>

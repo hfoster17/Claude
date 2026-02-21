@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MultiRegimeChartTheme.xml — NinjaTrader 8 Chart Theme Template
+
+  INSTALL: Copy to Documents\NinjaTrader 8\templates\Chart\
+  Then: Right-click chart → Properties → Load → MultiRegimeChartTheme
+
+  This theme uses a dark background with regime-colored elements:
+    - Gray background for clean visibility
+    - Blue for trending regime indicators
+    - Red for high-vol regime indicators
+    - Green for positive P&L, Red for negative
+-->
+<ChartTemplate Name="MultiRegimeChartTheme">
+  <!-- Background -->
+  <ChartPanel>
+    <BackgroundColor>#1A1A2E</BackgroundColor>
+    <GridLineColor>#2A2A3E</GridLineColor>
+    <AxisColor>#808080</AxisColor>
+    <FontColor>#CCCCCC</FontColor>
+    <Font>Consolas,9</Font>
+  </ChartPanel>
+
+  <!-- Candle/Bar Colors -->
+  <Bars>
+    <UpColor>#00CC66</UpColor>
+    <DownColor>#CC3333</DownColor>
+    <UpWickColor>#00CC66</UpWickColor>
+    <DownWickColor>#CC3333</DownWickColor>
+    <BarWidth>3</BarWidth>
+    <CandleOutlineColor>#444444</CandleOutlineColor>
+  </Bars>
+
+  <!-- Volume Panel -->
+  <Volume>
+    <Visible>true</Visible>
+    <UpColor>#00CC6640</UpColor>
+    <DownColor>#CC333340</DownColor>
+    <PanelHeightPercent>15</PanelHeightPercent>
+  </Volume>
+
+  <!-- Regime Indicator Colors (for strategy telemetry) -->
+  <RegimeColors>
+    <LowVol>#808080</LowVol>       <!-- Gray: no trading zone -->
+    <Trending>#1E90FF</Trending>     <!-- DodgerBlue: trend following active -->
+    <HighVol>#FF4444</HighVol>       <!-- Red: mean reversion active -->
+  </RegimeColors>
+
+  <!-- Strategy Overlay -->
+  <StrategyOverlay>
+    <TelemetryPosition>TopRight</TelemetryPosition>
+    <TelemetryFont>Consolas,11</TelemetryFont>
+    <TelemetryBackground>Transparent</TelemetryBackground>
+
+    <!-- Entry/Exit Markers -->
+    <LongEntryColor>#00FF88</LongEntryColor>
+    <ShortEntryColor>#FF6688</ShortEntryColor>
+    <ExitColor>#FFAA00</ExitColor>
+    <StopLossColor>#FF0000</StopLossColor>
+    <ProfitTargetColor>#00FF00</ProfitTargetColor>
+  </StrategyOverlay>
+
+  <!-- Indicator Presets -->
+  <Indicators>
+    <RSI>
+      <Color>#1E90FF</Color>
+      <OverboughtLevel>70</OverboughtLevel>
+      <OversoldLevel>30</OversoldLevel>
+      <OverboughtColor>#FF444440</OverboughtColor>
+      <OversoldColor>#00CC6640</OversoldColor>
+      <PanelHeightPercent>15</PanelHeightPercent>
+    </RSI>
+    <ATR>
+      <Color>#FFD700</Color>
+      <Period>14</Period>
+      <PanelHeightPercent>10</PanelHeightPercent>
+    </ATR>
+  </Indicators>
+
+  <!--
+    NOTE: NinjaTrader 8 uses a proprietary chart template format.
+    This XML is a TEMPLATE showing the intended visual configuration.
+
+    To apply this theme manually:
+    1. Open a chart in NinjaTrader 8
+    2. Right-click chart → Properties
+    3. Set colors as specified above:
+       - Background: #1A1A2E (dark navy)
+       - Grid lines: #2A2A3E (subtle grid)
+       - Up candles: #00CC66 (green)
+       - Down candles: #CC3333 (red)
+       - Font: Consolas 9pt, color #CCCCCC
+    4. Add RSI(14) and ATR(14) indicators
+    5. Save as template: Right-click → Save As Default
+  -->
+</ChartTemplate>

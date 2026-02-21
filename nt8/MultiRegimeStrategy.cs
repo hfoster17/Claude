@@ -3,9 +3,12 @@
 // NinjaTrader 8 — Full compilable strategy
 //
 // Architecture:
-//   FeatureEngine → HmmFilter (internal) + ExternalRegimeClient (TCP)
-//   → RegimeDecider → TradePolicy → RiskEngine → ExecManager → Telemetry
+//   FeatureEngine → HmmFilter (internal) / FallbackClassifier (backup)
+//   + ExternalRegimeClient (TCP)
+//   → RegimeDecider → OrderFlowFilter → ApexSafeguard → RiskEngine
+//   → Adaptive Sizing → Execution → Telemetry
 //
+// Modes: UltraAggressive (full risk) | ApexEvalSafe (prop firm evaluation)
 // Supports: NQ, ES, CL, NG, GC, SI, ZB, UB
 // =============================================================================
 
@@ -72,6 +75,11 @@ namespace NinjaTrader.NinjaScript.Strategies
             {"UB", new InstrumentProfile{Symbol="UB", K=3, FeatureWindow=20, ConfidenceThreshold=0.55,
                 DwellBars=3, MaxFlips=5, StopAtrMult=2.0, TargetAtrMult=3.0, FlattenMinutes=5, MaxSize=2, TickSize=0.03125, PointValue=1000.0}},
         };
+
+        // =====================================================================
+        // STRATEGY MODE
+        // =====================================================================
+        private enum StrategyMode { UltraAggressive, ApexEvalSafe }
 
         // =====================================================================
         // FEATURE ENGINE
@@ -292,6 +300,105 @@ namespace NinjaTrader.NinjaScript.Strategies
                     mahal += d * d / v;
                 }
                 return -0.5 * (n * Math.Log(2 * Math.PI) + logDet + mahal);
+            }
+        }
+
+        // =====================================================================
+        // FALLBACK CLASSIFIER (Rule-based regime when HMM unavailable)
+        // =====================================================================
+        private class FallbackClassifier
+        {
+            private readonly List<double> atrHistory = new List<double>();
+            private readonly List<double> closeHistory = new List<double>();
+            private const int ATR_LOOKBACK = 50;
+            private const int SMA_FAST = 20;
+            private const int SMA_SLOW = 50;
+            private const double FALLBACK_CONFIDENCE = 0.50;
+
+            public int DominantState { get; private set; }
+            public double Confidence => FALLBACK_CONFIDENCE;
+            public bool Ready => closeHistory.Count >= SMA_SLOW;
+
+            public void Update(double close, double atr14)
+            {
+                AddCapped(closeHistory, close, SMA_SLOW + 10);
+                AddCapped(atrHistory, atr14, ATR_LOOKBACK + 10);
+
+                if (!Ready) { DominantState = 0; return; }
+
+                // ATR percentile for volatility regime
+                double currentAtr = atr14;
+                double atrMedian = Percentile(atrHistory, 50);
+                double atrP75 = Percentile(atrHistory, 75);
+
+                // SMA crossover for trend
+                double smaFast = SMA(closeHistory, SMA_FAST);
+                double smaSlow = SMA(closeHistory, SMA_SLOW);
+                bool uptrend = smaFast > smaSlow;
+                bool downtrend = smaFast < smaSlow;
+                double trendStrength = Math.Abs(smaFast - smaSlow) / Math.Max(smaSlow, 1e-10);
+
+                // Classify regime
+                if (currentAtr < atrMedian && trendStrength < 0.002)
+                {
+                    DominantState = 0; // low_vol
+                }
+                else if (currentAtr >= atrP75)
+                {
+                    DominantState = 2; // high_vol
+                }
+                else
+                {
+                    DominantState = 1; // trending
+                }
+            }
+
+            public int GetSignal()
+            {
+                if (!Ready || DominantState == 0) return 0;
+
+                double smaFast = SMA(closeHistory, SMA_FAST);
+                double smaSlow = SMA(closeHistory, SMA_SLOW);
+
+                if (DominantState == 1) // trending
+                {
+                    if (smaFast > smaSlow) return 1;  // uptrend → long
+                    if (smaFast < smaSlow) return -1;  // downtrend → short
+                }
+                else if (DominantState == 2) // high_vol — mean revert
+                {
+                    double last = closeHistory[closeHistory.Count - 1];
+                    if (last < smaSlow * 0.995) return 1;  // below → buy
+                    if (last > smaSlow * 1.005) return -1;  // above → sell
+                }
+                return 0;
+            }
+
+            private static double SMA(List<double> data, int period)
+            {
+                int start = Math.Max(0, data.Count - period);
+                double sum = 0;
+                int count = 0;
+                for (int i = start; i < data.Count; i++) { sum += data[i]; count++; }
+                return count > 0 ? sum / count : 0;
+            }
+
+            private static double Percentile(List<double> data, double pct)
+            {
+                if (data.Count == 0) return 0;
+                var sorted = new List<double>(data);
+                sorted.Sort();
+                double idx = (pct / 100.0) * (sorted.Count - 1);
+                int lo = (int)Math.Floor(idx);
+                int hi = Math.Min(lo + 1, sorted.Count - 1);
+                double frac = idx - lo;
+                return sorted[lo] * (1 - frac) + sorted[hi] * frac;
+            }
+
+            private static void AddCapped(List<double> list, double val, int max)
+            {
+                list.Add(val);
+                if (list.Count > max) list.RemoveAt(0);
             }
         }
 
@@ -656,12 +763,14 @@ namespace NinjaTrader.NinjaScript.Strategies
 
             // State
             private int barCount;
+            private bool hasTickData;
 
             public double CumulativeDelta => cumulativeDelta;
             public double LastBarDelta { get; private set; }
             public double LastImbalance { get; private set; }
             public int LargeOrderCount => barLargeOrders;
             public bool Ready => barCount >= lookbackBars;
+            public bool UsingFallback => !hasTickData && barCount > 3;
             public OrderFlowConfirmation LastConfirmation { get; private set; } = OrderFlowConfirmation.Neutral;
 
             public OrderFlowFilter(int lookbackBars, double deltaThreshold,
@@ -681,6 +790,7 @@ namespace NinjaTrader.NinjaScript.Strategies
 
                 // Only process trades (Last)
                 if (dataType != 'L' || volume <= 0) return;
+                hasTickData = true;
 
                 // Classify as buy or sell using trade-at-bid/ask
                 if (lastAsk > 0 && price >= lastAsk)
@@ -777,6 +887,23 @@ namespace NinjaTrader.NinjaScript.Strategies
 
                 LastConfirmation = OrderFlowConfirmation.Neutral;
                 return OrderFlowConfirmation.Neutral;
+            }
+
+            public void OnBarCloseFallback(double open_, double high, double low, double close, double volume)
+            {
+                // Bar-based order flow proxy when tick data is unavailable
+                if (hasTickData) return; // tick mode takes precedence
+
+                barCount++;
+                double range = high - low;
+                double barDelta = range > 0 ? ((close - open_) / range) * volume : 0;
+                LastBarDelta = barDelta;
+                cumulativeDelta += barDelta;
+
+                AddCapped(deltaHistory, barDelta, Math.Max(lookbackBars * 2, 50));
+                AddCapped(volumeHistory, volume, Math.Max(lookbackBars * 2, 50));
+
+                LastImbalance = range > 0 ? (close - open_) / range : 0;
             }
 
             public void ResetSession()
@@ -916,8 +1043,87 @@ namespace NinjaTrader.NinjaScript.Strategies
         }
 
         // =====================================================================
+        // APEX EVALUATION SAFEGUARD
+        // =====================================================================
+        private class ApexSafeguard
+        {
+            private readonly double trailingDrawdownLimit;
+            private readonly double dailyLossLimit;
+            private readonly double profitTarget;
+
+            public double CumulativePnL { get; private set; }
+            public double PeakEquity { get; private set; }
+            public double TrailingDrawdown => PeakEquity - CumulativePnL;
+            public double DailyPnL { get; private set; }
+            public bool IsLocked { get; private set; }
+            public string LockReason { get; private set; } = "";
+            public bool ProfitTargetReached => profitTarget > 0 && CumulativePnL >= profitTarget;
+            public double ProfitProgress => profitTarget > 0 ? Math.Min(CumulativePnL / profitTarget, 1.0) : 0;
+
+            public ApexSafeguard(double trailingDrawdownLimit, double dailyLossLimit, double profitTarget)
+            {
+                this.trailingDrawdownLimit = trailingDrawdownLimit;
+                this.dailyLossLimit = dailyLossLimit;
+                this.profitTarget = profitTarget;
+            }
+
+            public void ResetDaily()
+            {
+                DailyPnL = 0;
+                // Do NOT reset CumulativePnL or PeakEquity — those persist across days
+                if (IsLocked && LockReason.Contains("Daily"))
+                {
+                    IsLocked = false;
+                    LockReason = "";
+                }
+            }
+
+            public void OnTradeClosed(double tradePnL)
+            {
+                CumulativePnL += tradePnL;
+                DailyPnL += tradePnL;
+
+                if (CumulativePnL > PeakEquity)
+                    PeakEquity = CumulativePnL;
+
+                // Check trailing drawdown from peak
+                if (TrailingDrawdown >= trailingDrawdownLimit)
+                {
+                    IsLocked = true;
+                    LockReason = string.Format("Trailing DD {0:F0} >= {1:F0}", TrailingDrawdown, trailingDrawdownLimit);
+                    return;
+                }
+
+                // Check daily loss
+                if (DailyPnL <= -dailyLossLimit)
+                {
+                    IsLocked = true;
+                    LockReason = string.Format("Daily loss {0:F0} >= {1:F0}", -DailyPnL, dailyLossLimit);
+                    return;
+                }
+            }
+
+            public bool CanTrade()
+            {
+                return !IsLocked;
+            }
+
+            public void ForceUnlock()
+            {
+                IsLocked = false;
+                LockReason = "";
+            }
+        }
+
+        // =====================================================================
         // PROPERTIES
         // =====================================================================
+
+        // Strategy Mode
+        [NinjaScriptProperty]
+        [Display(Name = "Strategy Mode", Order = 1, GroupName = "0. Strategy Mode")]
+        public int StrategyModeIndex { get; set; }
+        // 0 = UltraAggressive, 1 = ApexEvalSafe
 
         // Auto Profile
         [NinjaScriptProperty]
@@ -1012,13 +1218,26 @@ namespace NinjaTrader.NinjaScript.Strategies
         [Display(Name = "Enable Shorts", Order = 7, GroupName = "5. Risk")]
         public bool EnableShorts { get; set; }
 
+        // Apex Evaluation
+        [NinjaScriptProperty]
+        [Display(Name = "Apex Trailing DD Limit", Order = 1, GroupName = "6. Apex Evaluation")]
+        public double ApexTrailingDrawdownLimit { get; set; }
+
+        [NinjaScriptProperty]
+        [Display(Name = "Apex Daily Loss Limit", Order = 2, GroupName = "6. Apex Evaluation")]
+        public double ApexDailyLossLimit { get; set; }
+
+        [NinjaScriptProperty]
+        [Display(Name = "Apex Profit Target", Order = 3, GroupName = "6. Apex Evaluation")]
+        public double ApexProfitTarget { get; set; }
+
         // System
         [NinjaScriptProperty]
-        [Display(Name = "Debug Enabled", Order = 1, GroupName = "6. System")]
+        [Display(Name = "Debug Enabled", Order = 1, GroupName = "7. System")]
         public bool DebugEnabled { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Emergency Kill Switch", Order = 2, GroupName = "6. System")]
+        [Display(Name = "Emergency Kill Switch", Order = 2, GroupName = "7. System")]
         public bool EmergencyKillSwitch { get; set; }
 
         // =====================================================================
@@ -1026,17 +1245,21 @@ namespace NinjaTrader.NinjaScript.Strategies
         // =====================================================================
         private FeatureEngine featureEngine;
         private HmmFilter hmmFilter;
+        private FallbackClassifier fallbackClassifier;
         private ExternalRegimeClient externalClient;
         private RegimeDecider regimeDecider;
         private OrderFlowFilter orderFlowFilter;
         private RiskEngine riskEngine;
+        private ApexSafeguard apexSafeguard;
         private InstrumentProfile activeProfile;
         private HmmModelData modelData;
+        private StrategyMode activeMode;
 
         private RSI rsiIndicator;
         private ATR atrIndicator;
 
         private bool safeMode;
+        private bool usingFallback;
         private string safeModeReason = "";
         private bool sessionResetPending;
         private double entryPrice;
@@ -1065,6 +1288,7 @@ namespace NinjaTrader.NinjaScript.Strategies
                 IsUnmanaged = false;
 
                 // Defaults
+                StrategyModeIndex = 0; // 0=UltraAggressive, 1=ApexEvalSafe
                 UseAutoProfile = true;
                 ProfileSymbolOverride = "";
                 ModelConfigFolder = @"C:\MultiRegime\models";
@@ -1087,6 +1311,9 @@ namespace NinjaTrader.NinjaScript.Strategies
                 FlattenMinutesBeforeClose = 5;
                 EnableLongs = true;
                 EnableShorts = true;
+                ApexTrailingDrawdownLimit = 2500;
+                ApexDailyLossLimit = 1500;
+                ApexProfitTarget = 3000;
                 DebugEnabled = false;
                 EmergencyKillSwitch = false;
             }
@@ -1110,7 +1337,11 @@ namespace NinjaTrader.NinjaScript.Strategies
         private void InitializeComponents()
         {
             safeMode = false;
+            usingFallback = false;
             safeModeReason = "";
+
+            // Resolve strategy mode
+            activeMode = StrategyModeIndex == 1 ? StrategyMode.ApexEvalSafe : StrategyMode.UltraAggressive;
 
             // Detect instrument and load profile
             activeProfile = ResolveProfile();
@@ -1130,8 +1361,26 @@ namespace NinjaTrader.NinjaScript.Strategies
                 FlattenMinutesBeforeClose = activeProfile.FlattenMinutes;
             }
 
+            // Apply mode-specific overrides
+            if (activeMode == StrategyMode.ApexEvalSafe)
+            {
+                ConfidenceThreshold = Math.Max(ConfidenceThreshold, 0.60);
+                MaxFlips = Math.Min(MaxFlips, 4);
+                MaxTradesPerDay = Math.Min(MaxTradesPerDay, 6);
+                FlattenMinutesBeforeClose = Math.Max(FlattenMinutesBeforeClose, 15);
+                DailyMaxLoss = Math.Min(DailyMaxLoss, ApexDailyLossLimit);
+            }
+            else // UltraAggressive
+            {
+                ConfidenceThreshold = Math.Max(ConfidenceThreshold - 0.10, 0.40);
+                MaxFlips = (int)(MaxFlips * 1.5);
+            }
+
             // Feature engine
             featureEngine = new FeatureEngine();
+
+            // Fallback classifier (always initialized as backup)
+            fallbackClassifier = new FallbackClassifier();
 
             // Load HMM model
             modelData = LoadModel(activeProfile.Symbol);
@@ -1141,8 +1390,10 @@ namespace NinjaTrader.NinjaScript.Strategies
             }
             else
             {
-                safeMode = true;
-                safeModeReason = "Model file not found — running in safe mode";
+                // Use fallback classifier instead of full safe mode
+                usingFallback = true;
+                if (DebugEnabled)
+                    Print("[MultiRegime] HMM model not found — using fallback classifier");
             }
 
             // Regime decider
@@ -1162,16 +1413,23 @@ namespace NinjaTrader.NinjaScript.Strategies
             if (EmergencyKillSwitch)
                 riskEngine.SetEmergencyStop();
 
+            // Apex safeguard (only in ApexEvalSafe mode)
+            if (activeMode == StrategyMode.ApexEvalSafe)
+            {
+                apexSafeguard = new ApexSafeguard(
+                    ApexTrailingDrawdownLimit, ApexDailyLossLimit, ApexProfitTarget);
+            }
+
             // External client
-            if (EnableExternalEngine && !safeMode)
+            if (EnableExternalEngine && !safeMode && !usingFallback)
             {
                 externalClient = new ExternalRegimeClient(Host, Port, TimeoutMs);
                 externalClient.Start();
             }
 
             if (DebugEnabled)
-                Print(string.Format("[MultiRegime] Initialized for {0}, K={1}, SafeMode={2}",
-                    activeProfile.Symbol, activeProfile.K, safeMode));
+                Print(string.Format("[MultiRegime] Initialized for {0}, Mode={1}, K={2}, SafeMode={3}, Fallback={4}",
+                    activeProfile.Symbol, activeMode, activeProfile.K, safeMode, usingFallback));
         }
 
         private InstrumentProfile ResolveProfile()
@@ -1381,6 +1639,7 @@ namespace NinjaTrader.NinjaScript.Strategies
                 riskEngine?.ResetDaily();
                 regimeDecider?.ResetSession();
                 orderFlowFilter?.ResetSession();
+                apexSafeguard?.ResetDaily();
             }
 
             // Flatten before session close
@@ -1391,7 +1650,7 @@ namespace NinjaTrader.NinjaScript.Strategies
             }
 
             // Safe mode — no trading, just telemetry
-            if (safeMode || hmmFilter == null)
+            if (safeMode)
             {
                 DrawTelemetry(-1, 0, "SAFE MODE: " + safeModeReason);
                 return;
@@ -1404,16 +1663,29 @@ namespace NinjaTrader.NinjaScript.Strategies
 
             if (!featureEngine.Ready) return;
 
-            // 2. Internal HMM update
-            hmmFilter.Update(features);
-            int internalState = hmmFilter.DominantState;
-            double internalConf = hmmFilter.Confidence;
+            // 2. Regime detection: HMM primary, fallback if unavailable
+            int internalState;
+            double internalConf;
 
-            // 3. External engine (non-blocking)
+            if (hmmFilter != null)
+            {
+                hmmFilter.Update(features);
+                internalState = hmmFilter.DominantState;
+                internalConf = hmmFilter.Confidence;
+            }
+            else
+            {
+                // Fallback classifier
+                fallbackClassifier.Update(Close[0], atrIndicator[0]);
+                internalState = fallbackClassifier.DominantState;
+                internalConf = fallbackClassifier.Confidence;
+            }
+
+            // 3. External engine (non-blocking, only if HMM available)
             int finalState = internalState;
             double finalConf = internalConf;
 
-            if (externalClient != null && EnableExternalEngine)
+            if (externalClient != null && EnableExternalEngine && !usingFallback)
             {
                 externalClient.EnqueueRequest(activeProfile.Symbol, Time[0], features);
                 var extResp = externalClient.DequeueResponse();
@@ -1428,12 +1700,20 @@ namespace NinjaTrader.NinjaScript.Strategies
             int regime = regimeDecider.Update(finalState, finalConf);
 
             // 5. Trade policy
-            int signal = GetTradeSignal(regime, finalConf);
+            int signal;
+            if (usingFallback)
+                signal = fallbackClassifier.GetSignal();
+            else
+                signal = GetTradeSignal(regime, finalConf);
 
             // 5b. Order flow bar close + confirmation gate
             if (orderFlowFilter != null)
             {
-                orderFlowFilter.OnBarClose();
+                // Use bar-based fallback if no tick data available
+                orderFlowFilter.OnBarCloseFallback(Open[0], High[0], Low[0], Close[0], Volume[0]);
+                // If tick data is present, OnBarClose accumulates from OnMarketData
+                if (!orderFlowFilter.UsingFallback)
+                    orderFlowFilter.OnBarClose();
 
                 if (signal != 0)
                 {
@@ -1448,6 +1728,13 @@ namespace NinjaTrader.NinjaScript.Strategies
                 }
             }
 
+            // 5c. Apex safeguard gate (ApexEvalSafe mode only)
+            if (apexSafeguard != null && !apexSafeguard.CanTrade())
+            {
+                DrawTelemetry(regime, finalConf, "APEX LOCKED: " + apexSafeguard.LockReason);
+                return;
+            }
+
             // 6. Risk engine gate
             if (!riskEngine.CanEnter() || signal == 0)
             {
@@ -1457,17 +1744,47 @@ namespace NinjaTrader.NinjaScript.Strategies
 
             riskEngine.OnSignal();
 
-            // 7. Execution
+            // 7. Adaptive stops (regime-dependent) + volatility-based position sizing
             double atr = atrIndicator[0];
-            double stopDist = atr * activeProfile.StopAtrMult;
-            double targetDist = atr * activeProfile.TargetAtrMult;
+
+            // Adaptive stop multipliers by regime
+            double stopMult = activeProfile.StopAtrMult;
+            double targetMult = activeProfile.TargetAtrMult;
+            if (regime == 0) // low_vol — tighter stops
+            {
+                stopMult *= 0.75;
+                targetMult *= 0.75;
+            }
+            else if (regime == 2) // high_vol — wider stops
+            {
+                stopMult *= 1.5;
+                targetMult *= 1.25;
+            }
+
+            double stopDist = atr * stopMult;
+            double targetDist = atr * targetMult;
+
+            // Volatility-based position sizing
+            int size;
+            if (activeMode == StrategyMode.ApexEvalSafe)
+            {
+                size = 1; // Fixed 1 lot in eval mode
+            }
+            else
+            {
+                // Risk per trade = DailyMaxLoss / MaxTradesPerDay
+                double riskPerTrade = DailyMaxLoss / Math.Max(MaxTradesPerDay, 1);
+                double riskPerLot = stopDist * activeProfile.PointValue;
+                int volSize = riskPerLot > 0 ? (int)Math.Floor(riskPerTrade / riskPerLot) : 1;
+                size = Math.Max(1, Math.Min(volSize, activeProfile.MaxSize));
+            }
 
             if (signal > 0 && EnableLongs && Position.MarketPosition != MarketPosition.Long)
             {
                 if (Position.MarketPosition == MarketPosition.Short)
                     ExitShort();
 
-                EnterLong(Math.Min(1, activeProfile.MaxSize), "RegimeLong");
+                EnterLong(size, "RegimeLong");
                 SetStopLoss("RegimeLong", CalculationMode.Ticks,
                     stopDist / Instrument.MasterInstrument.TickSize, false);
                 SetProfitTarget("RegimeLong", CalculationMode.Ticks,
@@ -1478,7 +1795,7 @@ namespace NinjaTrader.NinjaScript.Strategies
                 if (Position.MarketPosition == MarketPosition.Long)
                     ExitLong();
 
-                EnterShort(Math.Min(1, activeProfile.MaxSize), "RegimeShort");
+                EnterShort(size, "RegimeShort");
                 SetStopLoss("RegimeShort", CalculationMode.Ticks,
                     stopDist / Instrument.MasterInstrument.TickSize, false);
                 SetProfitTarget("RegimeShort", CalculationMode.Ticks,
@@ -1571,6 +1888,7 @@ namespace NinjaTrader.NinjaScript.Strategies
                         tradePnL = (entryPrice - price) * quantity * activeProfile.PointValue;
 
                     riskEngine.OnExitFill(tradePnL);
+                    apexSafeguard?.OnTradeClosed(tradePnL);
                     entryDirection = 0;
                     entryPrice = 0;
                 }
@@ -1582,20 +1900,36 @@ namespace NinjaTrader.NinjaScript.Strategies
         // =====================================================================
         private void DrawTelemetry(int regime, double confidence, string extra)
         {
-            string regimeLabel = regime >= 0 && modelData != null && regime < modelData.RegimeLabels.Length
-                ? modelData.RegimeLabels[regime] : "N/A";
+            string regimeLabel;
+            if (regime >= 0 && modelData != null && regime < modelData.RegimeLabels.Length)
+                regimeLabel = modelData.RegimeLabels[regime];
+            else if (regime == 0) regimeLabel = "low_vol";
+            else if (regime == 1) regimeLabel = "trending";
+            else if (regime == 2) regimeLabel = "high_vol";
+            else regimeLabel = "N/A";
 
+            string modeLabel = activeMode == StrategyMode.ApexEvalSafe ? "APEX" : "ULTRA";
+            string srcLabel = usingFallback ? "FB" : "HMM";
             string riskLabel = riskEngine != null ? riskEngine.State.ToString() : "N/A";
             double pnl = riskEngine != null ? riskEngine.DailyPnL : 0;
             int trades = riskEngine != null ? riskEngine.TradeCount : 0;
             bool extConn = externalClient != null && externalClient.IsConnected;
 
             string ofLabel = orderFlowFilter != null
-                ? orderFlowFilter.LastConfirmation.ToString()
+                ? (orderFlowFilter.UsingFallback ? "FB:" : "") + orderFlowFilter.LastConfirmation.ToString()
                 : "OFF";
 
-            string text = string.Format("R:{0} C:{1:F2} | Risk:{2} PnL:{3:F0} T:{4} | Ext:{5} OF:{6}",
-                regimeLabel, confidence, riskLabel, pnl, trades, extConn ? "ON" : "OFF", ofLabel);
+            string text = string.Format("[{0}] R:{1}({2}) C:{3:F2} | Risk:{4} PnL:{5:F0} T:{6} | Ext:{7} OF:{8}",
+                modeLabel, regimeLabel, srcLabel, confidence, riskLabel, pnl, trades,
+                extConn ? "ON" : "OFF", ofLabel);
+
+            // Apex evaluation progress
+            if (apexSafeguard != null)
+            {
+                text += string.Format(" | DD:{0:F0}/{1:F0} Prog:{2:P0}",
+                    apexSafeguard.TrailingDrawdown, ApexTrailingDrawdownLimit,
+                    apexSafeguard.ProfitProgress);
+            }
 
             if (!string.IsNullOrEmpty(extra))
                 text += " | " + extra;

@@ -20,8 +20,10 @@ Step-by-step instructions for installing, configuring, deploying, loading data, 
 12. [Deploy as Windows Service](#12-deploy-as-windows-service)
 13. [Deploy with Docker (Alternative)](#13-deploy-with-docker-alternative)
 14. [Launch the Dashboard](#14-launch-the-dashboard)
-15. [Verification Checklist](#15-verification-checklist)
-16. [Troubleshooting](#16-troubleshooting)
+15. [Monte Carlo Stress Testing](#15-monte-carlo-stress-testing)
+16. [Walk-Forward Optimization](#16-walk-forward-optimization)
+17. [Verification Checklist](#17-verification-checklist)
+18. [Troubleshooting](#18-troubleshooting)
 
 ---
 
@@ -43,10 +45,12 @@ Below is every file in the project. Download all of them, preserving the directo
 | `contracts/model_schema.json` | JSON schema for HMM model files |
 | `contracts/tcp_protocol.md` | TCP message protocol specification |
 
-### `nt8/` — NinjaTrader 8 Strategy
+### `nt8/` — NinjaTrader 8 Strategy + Workspace
 | File | Purpose |
 |------|---------|
-| `nt8/MultiRegimeStrategy.cs` | Complete NT8 strategy (all modules in one file) |
+| `nt8/MultiRegimeStrategy.cs` | Complete NT8 strategy (dual-mode, order flow, Apex safeguards) |
+| `nt8/MultiRegimeWorkspace.xml` | Workspace template (8 charts, 4x2 grid) |
+| `nt8/MultiRegimeChartTheme.xml` | Chart color theme (dark background, regime colors) |
 
 ### `engine/` — Python Regime Engine
 | File | Purpose |
@@ -60,6 +64,8 @@ Below is every file in the project. Download all of them, preserving the directo
 | `engine/data_pull.py` | CSV data ingestion + NT8 export watcher |
 | `engine/drift.py` | Drift detection (occupancy, KL, likelihood, KS) |
 | `engine/scheduler.py` | Nightly retrain + drift-triggered retrain |
+| `engine/monte_carlo.py` | Monte Carlo stress testing |
+| `engine/walk_forward.py` | Walk-forward optimizer |
 | `engine/config.yaml` | Engine configuration |
 | `engine/requirements.txt` | Python dependencies |
 
@@ -86,7 +92,7 @@ Below is every file in the project. Download all of them, preserving the directo
 | `docker/.env.example` | Environment variable template |
 | `docker/Makefile` | Build/run/stop shortcuts |
 
-### `tests/` — Test Suite (66 tests)
+### `tests/` — Test Suite (80+ tests)
 | File | Purpose |
 |------|---------|
 | `tests/conftest.py` | Shared test fixtures |
@@ -96,6 +102,8 @@ Below is every file in the project. Download all of them, preserving the directo
 | `tests/test_tcp.py` | TCP server protocol tests |
 | `tests/test_drift.py` | Drift detection tests |
 | `tests/test_soak.py` | 1000-message soak tests |
+| `tests/test_monte_carlo.py` | Monte Carlo stress tests |
+| `tests/test_walk_forward.py` | Walk-forward optimizer tests |
 
 ### `sample_requests/` — Example TCP Messages
 | File | Purpose |
@@ -440,6 +448,11 @@ Expected response:
 
 ### Step 3: Configure properties
 
+**Tab: 0. Strategy Mode**
+| Setting | Value | Notes |
+|---------|-------|-------|
+| Strategy Mode | `0` | **0 = UltraAggressive** (full risk), **1 = ApexEvalSafe** (prop firm eval) |
+
 **Tab: 1. Auto Profile**
 | Setting | Value | Notes |
 |---------|-------|-------|
@@ -482,7 +495,14 @@ Expected response:
 | Enable Longs | `True` | Allow long entries |
 | Enable Shorts | `True` | Allow short entries |
 
-**Tab: 6. System**
+**Tab: 6. Apex Evaluation** *(only active when Mode = ApexEvalSafe)*
+| Setting | Value | Notes |
+|---------|-------|-------|
+| Apex Trailing DD Limit | `2500` | Max trailing drawdown from peak equity |
+| Apex Daily Loss Limit | `1500` | Max daily loss before locking |
+| Apex Profit Target | `3000` | Evaluation profit target |
+
+**Tab: 7. System**
 | Setting | Value | Notes |
 |---------|-------|-------|
 | Debug Enabled | `True` | Enable for initial testing, disable later |
@@ -596,7 +616,81 @@ The dashboard opens at `http://localhost:8501` and shows:
 
 ---
 
-## 15. Verification Checklist
+## 15. Monte Carlo Stress Testing
+
+Before going live, stress-test your trade history with Monte Carlo simulation.
+
+### Generate results from backtest
+Export your backtest trade P&Ls to a CSV file (one P&L per line):
+```
+150.00
+-75.50
+200.00
+-50.00
+...
+```
+
+### Run Monte Carlo simulation
+```powershell
+cd C:\MultiRegime\engine
+python monte_carlo.py --trades-file ..\data\my_trades.csv --n-sims 10000 --profit-target 3000 --max-dd 2500
+```
+
+### Expected output
+```
+=== Monte Carlo Stress Test (10000 simulations) ===
+Trades:          150
+Simulations:     10,000
+
+P&L Distribution:
+  Mean:          $2,450.00
+  Median:        $2,380.00
+  5th pct:       $1,200.00
+  95th pct:      $3,700.00
+
+Max Drawdown Distribution:
+  Mean:          $1,100.00
+  Median:        $980.00
+  95th pct:      $2,100.00
+
+Pass Rate (PnL >= $3,000 AND DD < $2,500): 62.3%
+```
+
+A pass rate above 60% suggests reasonable confidence for an evaluation attempt.
+
+---
+
+## 16. Walk-Forward Optimization
+
+Validate that your HMM model generalizes to unseen data:
+
+```powershell
+cd C:\MultiRegime\engine
+python walk_forward.py --symbol NQ --data-dir ..\data --train-bars 2000 --test-bars 500 --step-bars 500
+```
+
+### Expected output
+```
+=== Walk-Forward Results for NQ ===
+Windows: 6
+Aggregate Test LL: -4523.45
+Stability Score: 0.78
+
+| Window | Train LL    | Test LL     | Stability | Dominant Regime |
+|--------|-------------|-------------|-----------|-----------------|
+| 1      | -3200.10    | -4100.50    | 0.82      | trending        |
+| 2      | -3150.20    | -4250.30    | 0.75      | trending        |
+...
+```
+
+Look for:
+- **Test LL not much worse than Train LL** — model isn't overfitting
+- **Stability > 0.70** — regimes are consistent out-of-sample
+- **Consistent dominant regime** — model finds real structure
+
+---
+
+## 17. Verification Checklist
 
 Run through this checklist **in order** before going live:
 
@@ -624,7 +718,7 @@ Run through this checklist **in order** before going live:
 
 ---
 
-## 16. Troubleshooting
+## 18. Troubleshooting
 
 ### Engine won't start
 ```
