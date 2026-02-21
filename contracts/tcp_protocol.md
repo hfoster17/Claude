@@ -64,7 +64,7 @@
 {
   "type": "heartbeat_ack",
   "uptime_s": 3600,
-  "models_loaded": ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB"],
+  "models_loaded": ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB", "UB"],
   "request_count": 12345
 }
 ```

@@ -23,7 +23,7 @@ from data_pull import load_csv_data, validate_data
 
 logger = logging.getLogger(__name__)
 
-SUPPORTED_SYMBOLS = ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB"]
+SUPPORTED_SYMBOLS = ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB", "UB"]
 
 DEFAULT_CONFIG = {
     "k": 3,

@@ -20,7 +20,7 @@ REQUIRED_FIELDS = [
     "feature_mean", "feature_std", "regime_labels", "metadata",
 ]
 
-SUPPORTED_SYMBOLS = {"NQ", "ES", "CL", "NG", "GC", "SI", "ZB"}
+SUPPORTED_SYMBOLS = {"NQ", "ES", "CL", "NG", "GC", "SI", "ZB", "UB"}
 CURRENT_SCHEMA_VERSION = 2
 
 

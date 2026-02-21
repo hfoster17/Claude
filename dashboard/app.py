@@ -22,7 +22,7 @@ sys.path.insert(0, ENGINE_DIR)
 STATUS_FILE = os.environ.get("ENGINE_STATUS_FILE", "engine_status.json")
 MODEL_DIR = os.environ.get("MODEL_DIR", "models")
 
-SYMBOLS = ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB"]
+SYMBOLS = ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB", "UB"]
 REGIME_COLORS = {"low_vol": "#808080", "trending": "#1E90FF", "high_vol": "#FF4444"}
 
 st.set_page_config(

@@ -72,6 +72,45 @@ feature[5] = clip(raw, -3.0, 3.0)
 5. **Flat price (Close == previous Close)**: log_return = 0.0.
 6. **Session VWAP reset**: VWAP resets at session open. Before first full bar of session, use close as VWAP proxy.
 
+## Order Flow Confirmation (NT8 Only)
+
+Order flow is used as a **trade confirmation gate** — it does not generate signals, only confirms or denies signals produced by the HMM regime model.
+
+### Metrics
+
+| Metric | Calculation | Purpose |
+|--------|-------------|---------|
+| Cumulative Delta | `sum(buy_volume - sell_volume)` since session open | Directional conviction |
+| Per-Bar Delta | `bar_buy_volume - bar_sell_volume` | Short-term flow direction |
+| Volume Imbalance | `(buy_vol - sell_vol) / (buy_vol + sell_vol)` per bar | Normalized flow bias |
+| Large Orders | Trades with size > `avg_size * multiplier` | Institutional activity |
+
+### Trade Classification
+
+Trades are classified as buy or sell using the trade-at-bid/ask method:
+- `price >= ask` → Buy (aggressor lifting the offer)
+- `price <= bid` → Sell (aggressor hitting the bid)
+- Between bid and ask → Split 50/50
+
+### Confirmation Logic
+
+Given a regime signal direction (+1 long, -1 short):
+1. **Delta Z-Score**: Rolling delta should align with signal direction (z-score > threshold)
+2. **Volume Imbalance**: Last bar imbalance should align (ratio > threshold)
+3. **Decision**: At least one metric must confirm, and neither can deny
+   - Both confirm or one confirms without denial → `Confirm` (allow trade)
+   - Both deny → `Deny` (block trade)
+   - Mixed or insufficient data → `Neutral` (allow trade)
+
+### Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `OrderFlowLookbackBars` | 10 | Number of bars for delta z-score calculation |
+| `DeltaConfirmationThreshold` | 1.5 | Z-score threshold for delta confirmation |
+| `ImbalanceConfirmationThreshold` | 0.15 | Volume imbalance ratio threshold |
+| `LargeOrderMultiplier` | 3.0 | Multiplier of average trade size for large order detection |
+
 ## Parity Verification
 
 To verify NT8 and Python produce identical features:

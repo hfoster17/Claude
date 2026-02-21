@@ -6,7 +6,7 @@
 //   FeatureEngine → HmmFilter (internal) + ExternalRegimeClient (TCP)
 //   → RegimeDecider → TradePolicy → RiskEngine → ExecManager → Telemetry
 //
-// Supports: NQ, ES, CL, NG, GC, SI, ZB
+// Supports: NQ, ES, CL, NG, GC, SI, ZB, UB
 // =============================================================================
 
 #region Using declarations
@@ -68,6 +68,8 @@ namespace NinjaTrader.NinjaScript.Strategies
             {"SI", new InstrumentProfile{Symbol="SI", K=3, FeatureWindow=20, ConfidenceThreshold=0.60,
                 DwellBars=4, MaxFlips=4, StopAtrMult=1.5, TargetAtrMult=2.5, FlattenMinutes=10, MaxSize=1, TickSize=0.005, PointValue=5000.0}},
             {"ZB", new InstrumentProfile{Symbol="ZB", K=3, FeatureWindow=20, ConfidenceThreshold=0.55,
+                DwellBars=3, MaxFlips=5, StopAtrMult=2.0, TargetAtrMult=3.0, FlattenMinutes=5, MaxSize=2, TickSize=0.03125, PointValue=1000.0}},
+            {"UB", new InstrumentProfile{Symbol="UB", K=3, FeatureWindow=20, ConfidenceThreshold=0.55,
                 DwellBars=3, MaxFlips=5, StopAtrMult=2.0, TargetAtrMult=3.0, FlattenMinutes=5, MaxSize=2, TickSize=0.03125, PointValue=1000.0}},
         };
 
@@ -626,6 +628,194 @@ namespace NinjaTrader.NinjaScript.Strategies
         }
 
         // =====================================================================
+        // ORDER FLOW FILTER (Trade Confirmation via Market Data)
+        // =====================================================================
+        private enum OrderFlowConfirmation { Confirm, Deny, Neutral }
+
+        private class OrderFlowFilter
+        {
+            private readonly int lookbackBars;
+            private readonly double deltaThreshold;
+            private readonly double imbalanceThreshold;
+            private readonly double largeOrderMultiplier;
+
+            // Per-bar accumulators (reset each bar close)
+            private double barBuyVolume;
+            private double barSellVolume;
+            private int barLargeOrders;
+
+            // Rolling history
+            private readonly List<double> deltaHistory = new List<double>();
+            private readonly List<double> volumeHistory = new List<double>();
+            private readonly List<double> tradeSizes = new List<double>();
+            private double cumulativeDelta;
+
+            // Last known bid/ask for trade classification
+            private double lastBid;
+            private double lastAsk;
+
+            // State
+            private int barCount;
+
+            public double CumulativeDelta => cumulativeDelta;
+            public double LastBarDelta { get; private set; }
+            public double LastImbalance { get; private set; }
+            public int LargeOrderCount => barLargeOrders;
+            public bool Ready => barCount >= lookbackBars;
+            public OrderFlowConfirmation LastConfirmation { get; private set; } = OrderFlowConfirmation.Neutral;
+
+            public OrderFlowFilter(int lookbackBars, double deltaThreshold,
+                                   double imbalanceThreshold, double largeOrderMultiplier)
+            {
+                this.lookbackBars = lookbackBars;
+                this.deltaThreshold = deltaThreshold;
+                this.imbalanceThreshold = imbalanceThreshold;
+                this.largeOrderMultiplier = largeOrderMultiplier;
+            }
+
+            public void OnMarketData(double price, double volume, char dataType)
+            {
+                // Update bid/ask levels
+                if (dataType == 'B') { lastBid = price; return; }
+                if (dataType == 'A') { lastAsk = price; return; }
+
+                // Only process trades (Last)
+                if (dataType != 'L' || volume <= 0) return;
+
+                // Classify as buy or sell using trade-at-bid/ask
+                if (lastAsk > 0 && price >= lastAsk)
+                    barBuyVolume += volume;
+                else if (lastBid > 0 && price <= lastBid)
+                    barSellVolume += volume;
+                else
+                {
+                    // Mid-price: split 50/50
+                    barBuyVolume += volume * 0.5;
+                    barSellVolume += volume * 0.5;
+                }
+
+                // Track trade sizes for large order detection
+                AddCapped(tradeSizes, volume, 200);
+            }
+
+            public void OnBarClose()
+            {
+                barCount++;
+
+                double barDelta = barBuyVolume - barSellVolume;
+                LastBarDelta = barDelta;
+                cumulativeDelta += barDelta;
+
+                AddCapped(deltaHistory, barDelta, Math.Max(lookbackBars * 2, 50));
+
+                double totalVol = barBuyVolume + barSellVolume;
+                AddCapped(volumeHistory, totalVol, Math.Max(lookbackBars * 2, 50));
+
+                // Compute imbalance for this bar
+                LastImbalance = totalVol > 0 ? (barBuyVolume - barSellVolume) / totalVol : 0;
+
+                // Count large orders this bar
+                double avgSize = tradeSizes.Count >= 10 ? Mean(tradeSizes) : 0;
+                barLargeOrders = 0;
+                if (avgSize > 0)
+                {
+                    double threshold = avgSize * largeOrderMultiplier;
+                    foreach (var s in tradeSizes)
+                        if (s >= threshold) barLargeOrders++;
+                }
+
+                // Reset per-bar accumulators
+                barBuyVolume = 0;
+                barSellVolume = 0;
+            }
+
+            public OrderFlowConfirmation GetConfirmation(int signalDirection)
+            {
+                // signalDirection: 1=long, -1=short, 0=no signal
+                if (signalDirection == 0) return OrderFlowConfirmation.Neutral;
+                if (!Ready) return OrderFlowConfirmation.Neutral;
+
+                // 1. Delta confirmation: recent delta Z-score should align with direction
+                int window = Math.Min(lookbackBars, deltaHistory.Count);
+                if (window < 3) return OrderFlowConfirmation.Neutral;
+
+                double recentDeltaSum = 0;
+                for (int i = deltaHistory.Count - window; i < deltaHistory.Count; i++)
+                    recentDeltaSum += deltaHistory[i];
+
+                double deltaMean = Mean(deltaHistory);
+                double deltaStd = Std(deltaHistory);
+                double deltaZscore = deltaStd > 1e-10 ? (recentDeltaSum / window - deltaMean) / deltaStd : 0;
+
+                bool deltaConfirms = (signalDirection > 0 && deltaZscore > deltaThreshold)
+                                  || (signalDirection < 0 && deltaZscore < -deltaThreshold);
+                bool deltaDenies = (signalDirection > 0 && deltaZscore < -deltaThreshold)
+                                || (signalDirection < 0 && deltaZscore > deltaThreshold);
+
+                // 2. Volume imbalance: last bar imbalance should align
+                bool imbalanceConfirms = (signalDirection > 0 && LastImbalance > imbalanceThreshold)
+                                      || (signalDirection < 0 && LastImbalance < -imbalanceThreshold);
+                bool imbalanceDenies = (signalDirection > 0 && LastImbalance < -imbalanceThreshold)
+                                    || (signalDirection < 0 && LastImbalance > imbalanceThreshold);
+
+                // Decision logic: need at least one confirming, and no denials
+                if (deltaConfirms && !imbalanceDenies)
+                {
+                    LastConfirmation = OrderFlowConfirmation.Confirm;
+                    return OrderFlowConfirmation.Confirm;
+                }
+                if (imbalanceConfirms && !deltaDenies)
+                {
+                    LastConfirmation = OrderFlowConfirmation.Confirm;
+                    return OrderFlowConfirmation.Confirm;
+                }
+                if (deltaDenies && imbalanceDenies)
+                {
+                    LastConfirmation = OrderFlowConfirmation.Deny;
+                    return OrderFlowConfirmation.Deny;
+                }
+
+                LastConfirmation = OrderFlowConfirmation.Neutral;
+                return OrderFlowConfirmation.Neutral;
+            }
+
+            public void ResetSession()
+            {
+                cumulativeDelta = 0;
+                barBuyVolume = 0;
+                barSellVolume = 0;
+                barLargeOrders = 0;
+                LastBarDelta = 0;
+                LastImbalance = 0;
+                LastConfirmation = OrderFlowConfirmation.Neutral;
+            }
+
+            private static void AddCapped(List<double> list, double val, int max)
+            {
+                list.Add(val);
+                if (list.Count > max) list.RemoveAt(0);
+            }
+
+            private static double Mean(List<double> list)
+            {
+                if (list.Count == 0) return 0;
+                double sum = 0;
+                for (int i = 0; i < list.Count; i++) sum += list[i];
+                return sum / list.Count;
+            }
+
+            private static double Std(List<double> list)
+            {
+                int n = list.Count;
+                if (n < 2) return 0;
+                double m = Mean(list);
+                double sumSq = 0;
+                for (int i = 0; i < n; i++) sumSq += (list[i] - m) * (list[i] - m);
+                return Math.Sqrt(sumSq / (n - 1));
+            }
+        }
+
+        // =====================================================================
         // RISK ENGINE (State Machine)
         // =====================================================================
         private enum RiskState { Idle, Armed, InTrade, Locked, Halted, EmergencyStop }
@@ -772,42 +962,63 @@ namespace NinjaTrader.NinjaScript.Strategies
         [Display(Name = "Max Flips", Order = 3, GroupName = "3. Regime")]
         public int MaxFlips { get; set; }
 
+        // Order Flow
+        [NinjaScriptProperty]
+        [Display(Name = "Enable Order Flow Filter", Order = 1, GroupName = "4. Order Flow")]
+        public bool EnableOrderFlowFilter { get; set; }
+
+        [NinjaScriptProperty]
+        [Display(Name = "OF Lookback Bars", Order = 2, GroupName = "4. Order Flow")]
+        public int OrderFlowLookbackBars { get; set; }
+
+        [NinjaScriptProperty]
+        [Display(Name = "Delta Confirmation Threshold", Order = 3, GroupName = "4. Order Flow")]
+        public double DeltaConfirmationThreshold { get; set; }
+
+        [NinjaScriptProperty]
+        [Display(Name = "Imbalance Threshold", Order = 4, GroupName = "4. Order Flow")]
+        public double ImbalanceConfirmationThreshold { get; set; }
+
+        [NinjaScriptProperty]
+        [Display(Name = "Large Order Multiplier", Order = 5, GroupName = "4. Order Flow")]
+        public double LargeOrderMultiplier { get; set; }
+
         // Risk
         [NinjaScriptProperty]
-        [Display(Name = "Daily Max Loss", Order = 1, GroupName = "4. Risk")]
+        [Display(Name = "Daily Max Loss", Order = 1, GroupName = "5. Risk")]
         public double DailyMaxLoss { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Daily Profit Lock", Order = 2, GroupName = "4. Risk")]
+        [Display(Name = "Daily Profit Lock", Order = 2, GroupName = "5. Risk")]
         public double DailyProfitLock { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Max Trades Per Day", Order = 3, GroupName = "4. Risk")]
+        [Display(Name = "Max Trades Per Day", Order = 3, GroupName = "5. Risk")]
         public int MaxTradesPerDay { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Consecutive Loss Lock Count", Order = 4, GroupName = "4. Risk")]
+        [Display(Name = "Consecutive Loss Lock Count", Order = 4, GroupName = "5. Risk")]
         public int ConsecutiveLossLockCount { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Flatten Minutes Before Close", Order = 5, GroupName = "4. Risk")]
+        [Display(Name = "Flatten Minutes Before Close", Order = 5, GroupName = "5. Risk")]
         public int FlattenMinutesBeforeClose { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Enable Longs", Order = 6, GroupName = "4. Risk")]
+        [Display(Name = "Enable Longs", Order = 6, GroupName = "5. Risk")]
         public bool EnableLongs { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Enable Shorts", Order = 7, GroupName = "4. Risk")]
+        [Display(Name = "Enable Shorts", Order = 7, GroupName = "5. Risk")]
         public bool EnableShorts { get; set; }
 
         // System
         [NinjaScriptProperty]
-        [Display(Name = "Debug Enabled", Order = 1, GroupName = "5. System")]
+        [Display(Name = "Debug Enabled", Order = 1, GroupName = "6. System")]
         public bool DebugEnabled { get; set; }
 
         [NinjaScriptProperty]
-        [Display(Name = "Emergency Kill Switch", Order = 2, GroupName = "5. System")]
+        [Display(Name = "Emergency Kill Switch", Order = 2, GroupName = "6. System")]
         public bool EmergencyKillSwitch { get; set; }
 
         // =====================================================================
@@ -817,6 +1028,7 @@ namespace NinjaTrader.NinjaScript.Strategies
         private HmmFilter hmmFilter;
         private ExternalRegimeClient externalClient;
         private RegimeDecider regimeDecider;
+        private OrderFlowFilter orderFlowFilter;
         private RiskEngine riskEngine;
         private InstrumentProfile activeProfile;
         private HmmModelData modelData;
@@ -863,6 +1075,11 @@ namespace NinjaTrader.NinjaScript.Strategies
                 ConfidenceThreshold = 0.55;
                 DwellBars = 3;
                 MaxFlips = 6;
+                EnableOrderFlowFilter = true;
+                OrderFlowLookbackBars = 10;
+                DeltaConfirmationThreshold = 1.5;
+                ImbalanceConfirmationThreshold = 0.15;
+                LargeOrderMultiplier = 3.0;
                 DailyMaxLoss = 2000;
                 DailyProfitLock = 5000;
                 MaxTradesPerDay = 10;
@@ -930,6 +1147,14 @@ namespace NinjaTrader.NinjaScript.Strategies
 
             // Regime decider
             regimeDecider = new RegimeDecider(DwellBars, MaxFlips, ConfidenceThreshold);
+
+            // Order flow filter
+            if (EnableOrderFlowFilter)
+            {
+                orderFlowFilter = new OrderFlowFilter(
+                    OrderFlowLookbackBars, DeltaConfirmationThreshold,
+                    ImbalanceConfirmationThreshold, LargeOrderMultiplier);
+            }
 
             // Risk engine
             riskEngine = new RiskEngine(DailyMaxLoss, DailyProfitLock, MaxTradesPerDay, ConsecutiveLossLockCount);
@@ -1109,6 +1334,25 @@ namespace NinjaTrader.NinjaScript.Strategies
         }
 
         // =====================================================================
+        // ON MARKET DATA — Order Flow Tracking
+        // =====================================================================
+        protected override void OnMarketData(MarketDataEventArgs e)
+        {
+            if (orderFlowFilter == null) return;
+
+            char dataType;
+            switch (e.MarketDataType)
+            {
+                case MarketDataType.Last: dataType = 'L'; break;
+                case MarketDataType.Bid:  dataType = 'B'; break;
+                case MarketDataType.Ask:  dataType = 'A'; break;
+                default: return;
+            }
+
+            orderFlowFilter.OnMarketData(e.Price, e.Volume, dataType);
+        }
+
+        // =====================================================================
         // ON BAR UPDATE — MAIN LOGIC
         // =====================================================================
         protected override void OnBarUpdate()
@@ -1136,6 +1380,7 @@ namespace NinjaTrader.NinjaScript.Strategies
                 lastSessionResetDate = Time[0].Date;
                 riskEngine?.ResetDaily();
                 regimeDecider?.ResetSession();
+                orderFlowFilter?.ResetSession();
             }
 
             // Flatten before session close
@@ -1184,6 +1429,24 @@ namespace NinjaTrader.NinjaScript.Strategies
 
             // 5. Trade policy
             int signal = GetTradeSignal(regime, finalConf);
+
+            // 5b. Order flow bar close + confirmation gate
+            if (orderFlowFilter != null)
+            {
+                orderFlowFilter.OnBarClose();
+
+                if (signal != 0)
+                {
+                    var ofConfirm = orderFlowFilter.GetConfirmation(signal);
+                    if (ofConfirm == OrderFlowConfirmation.Deny)
+                    {
+                        if (DebugEnabled)
+                            Print("[MultiRegime] Order flow DENIED signal " + signal);
+                        DrawTelemetry(regime, finalConf, "OF:DENY");
+                        return;
+                    }
+                }
+            }
 
             // 6. Risk engine gate
             if (!riskEngine.CanEnter() || signal == 0)
@@ -1327,8 +1590,12 @@ namespace NinjaTrader.NinjaScript.Strategies
             int trades = riskEngine != null ? riskEngine.TradeCount : 0;
             bool extConn = externalClient != null && externalClient.IsConnected;
 
-            string text = string.Format("R:{0} C:{1:F2} | Risk:{2} PnL:{3:F0} T:{4} | Ext:{5}",
-                regimeLabel, confidence, riskLabel, pnl, trades, extConn ? "ON" : "OFF");
+            string ofLabel = orderFlowFilter != null
+                ? orderFlowFilter.LastConfirmation.ToString()
+                : "OFF";
+
+            string text = string.Format("R:{0} C:{1:F2} | Risk:{2} PnL:{3:F0} T:{4} | Ext:{5} OF:{6}",
+                regimeLabel, confidence, riskLabel, pnl, trades, extConn ? "ON" : "OFF", ofLabel);
 
             if (!string.IsNullOrEmpty(extra))
                 text += " | " + extra;

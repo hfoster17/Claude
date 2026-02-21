@@ -48,6 +48,7 @@ symbols:
   - GC
   - SI
   - ZB
+  - UB
 
 # Instrument profiles (used by training and engine)
 profiles:
@@ -94,6 +95,13 @@ profiles:
     session_end: "17:00"
     timezone: "America/New_York"
   ZB:
+    k: 3
+    tick_size: 0.03125
+    point_value: 1000.0
+    session_start: "18:00"
+    session_end: "17:00"
+    timezone: "America/Chicago"
+  UB:
     k: 3
     tick_size: 0.03125
     point_value: 1000.0

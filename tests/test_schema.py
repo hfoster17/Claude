@@ -77,7 +77,7 @@ class TestSchemaValidation:
         assert model is None
 
     def test_all_supported_symbols(self, sample_model):
-        for sym in ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB"]:
+        for sym in ["NQ", "ES", "CL", "NG", "GC", "SI", "ZB", "UB"]:
             model = copy.deepcopy(sample_model)
             model["symbol"] = sym
             error = validate_model_dict(model)

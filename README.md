@@ -1,16 +1,16 @@
 # Multi-Futures Institutional Trading Stack
 
-HMM-based regime detection system for futures trading across NQ, ES, CL, NG, GC, SI, ZB.
+HMM-based regime detection system for futures trading across NQ, ES, CL, NG, GC, SI, ZB, UB with order flow trade confirmation.
 
 ## Architecture
 
 ```
 NinjaTrader 8 Strategy ←→ TCP ←→ Python Regime Engine
        ↓                              ↓
-   Risk Engine                  HMM Inference
-   Execution                    Model Training
-   Telemetry                    Drift Detection
-                                Dashboard
+   Order Flow Filter            HMM Inference
+   Risk Engine                  Model Training
+   Execution                    Drift Detection
+   Telemetry                    Dashboard
 ```
 
 **Design priority**: Risk safety > Runtime stability > Deterministic behavior > Performance > Sophistication.
@@ -126,6 +126,16 @@ streamlit run dashboard/app.py
 - **State 1 (trending)**: Trending market — trend following
 - **State 2 (high_vol)**: High volatility — mean reversion
 
+### Order Flow Confirmation
+
+The order flow filter acts as a **trade confirmation gate** between signal generation (HMM regime) and execution. It does NOT generate signals — it only confirms or blocks them.
+
+- **Delta Z-Score**: Rolling cumulative delta must align with trade direction
+- **Volume Imbalance**: Buy/sell volume ratio must favor trade direction
+- **Decision**: Confirm (allow), Deny (block), or Neutral (allow)
+
+Trades are classified as buy/sell using trade-at-bid/ask logic from tick-level `OnMarketData` events.
+
 ### Risk Engine States
 
 - **Idle** → **Armed** → **InTrade** → **Idle** (normal cycle)
@@ -195,3 +205,4 @@ See `services/README.md` for NSSM and Task Scheduler setup.
 | GC | COMEX | 0.10 | $100 | 2 |
 | SI | COMEX | 0.005 | $5,000 | 1 |
 | ZB | CBOT | 1/32 | $1,000 | 2 |
+| UB | CBOT | 1/32 | $1,000 | 2 |
