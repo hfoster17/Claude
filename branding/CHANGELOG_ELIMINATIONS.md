@@ -56,13 +56,12 @@ via edit-distance ≤1, shared 4-letter prefixes, and substring containment.)
 
 ## Round 2 — automated availability pre-screen (App Store + domains)
 
-See `output/availability.json` for raw evidence per name. Rejections recorded in REPORT.md §4.
+115 names checked against the iTunes Search API and RDAP. Raw evidence per name
+in `output/availability.json` (round 1) and `output/availability_round2.json`
+(round 2). Names with 2+ exact App Store matches were dropped before deep
+screening; the survivors form `output/top_50_after_prescreen.txt`.
 
-## Round 3 — deep legal/linguistic screening (agents)
-
-Rejections recorded in REPORT.md §5–6.
-
-## Round 2 — deep legal/linguistic screening, batch 1 (2-syllable names)
+## Round 3 — deep legal/linguistic screening, batch 1 (2-syllable names)
 
 Fourteen names screened by parallel research agents. Zero CLEAR. Full evidence
 with URLs in `output/deep_screen.json`.
@@ -84,7 +83,7 @@ with URLs in `output/deep_screen.json`.
 | veki | MODERATE, dropped | Identical-name chat/video app live on Google Play |
 | kelu | MODERATE, dropped | "Kelu: Speak Locally" — Kannada language-learning app in the exact space |
 
-## Round 3 — deep screening, batch 2 (3-syllable names)
+## Round 4 — deep screening, batch 2 (3-syllable names)
 
 Ten names screened. No HIGH_RISK results — the syllable-count hypothesis held.
 Full evidence in `output/deep_screen_round2.json`. Six eliminated:
