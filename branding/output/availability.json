@@ -1,0 +1,186 @@
+{
+ "otomo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 13,
+   "exact": [
+    "OTOMO App",
+    "OTOMO Guides"
+   ],
+   "near": [
+    "600 C\u00e2u L\u00fd Thuy\u1ebft GPLX OTOMOTO",
+    "OTOMOTO.pl: Car Marketplace",
+    "MHOtomo: World"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "poko": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "POKO:Free Pack, Track &Collect",
+    "Poko Life",
+    "POKO:China Buy&Global Shipping"
+   ],
+   "near": [
+    "Pokopoko: Match 3 Puzzle Games",
+    "PokoCheck - Pokopia Guide"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "pomu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "pomu",
+    "Pomu - Photo Cleanup",
+    "Pomu - Simple Pomodoro Timer"
+   ],
+   "near": [
+    "\u30c9\u30c3\u30b0\u30de\u30c3\u30b5\u30fc\u30b8POMU\u3000\u516c\u5f0f\u30a2\u30d7\u30ea"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "moomo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 17,
+   "exact": [
+    "Moomo",
+    "Moomo AI"
+   ],
+   "near": [
+    "moomoo: Investing & Trading",
+    "moomoo token"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "bolio": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 10,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "rillo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 3,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "tamo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 17,
+   "exact": [
+    "TAMO I\u0161maniems",
+    "Tamo Pilates",
+    "Tamo",
+    "TaMo",
+    "TaMo"
+   ],
+   "near": [
+    "Tamos"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "namo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 18,
+   "exact": [
+    "Namo Bharat Connect",
+    "namo - AI Photo & Video Maker",
+    "Namo Amitabha",
+    "Namo Stuti Smart Banking"
+   ],
+   "near": [
+    "Namoos",
+    "OM Namo Center"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "koru": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "Koru Med Spa",
+    "Koru: Stress & Anxiety Relief",
+    "Koru - Family Budget Tracker",
+    "Koru: C-section",
+    "Koru Sigorta"
+   ],
+   "near": [
+    "Koru. - Thoughts' Care & CBT"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "solu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [
+    "Solu ToneStream"
+   ],
+   "near": [
+    "Solum Aims Manager"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "taken",
+   "ai": "taken"
+  }
+ }
+}

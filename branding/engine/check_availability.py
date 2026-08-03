@@ -19,9 +19,9 @@ CANDIDATES = [
 ]
 
 def curl(url, extra=None):
-    cmd = ["curl", "-sL", "--max-time", "20", "-o", "-", "-w", "\n%{http_code}", url]
+    cmd = ["curl", "-sL", "--max-time", "7", "-o", "-", "-w", "\n%{http_code}", url]
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=25)
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
         body, _, code = r.stdout.rpartition("\n")
         return body, code.strip()
     except Exception:
@@ -56,7 +56,7 @@ def itunes(name):
 
 def check_domains(name):
     with ThreadPoolExecutor(4) as ex:
-        futs = {tld: ex.submit(rdap, f"{name}.{tld}") for tld in ("com", "app", "ai", "io")}
+        futs = {tld: ex.submit(rdap, f"{name}.{tld}") for tld in ("com", "app", "ai")}
         return {tld: f.result() for tld, f in futs.items()}
 
 if __name__ == "__main__":
@@ -66,9 +66,9 @@ if __name__ == "__main__":
         out[name] = row
         print(f"[{i+1}/{len(CANDIDATES)}] {name}: apps={row['appstore'].get('n_results','?')} "
               f"exact={len(row['appstore'].get('exact',[]))} com={row['domains']['com']} "
-              f"app={row['domains']['app']} ai={row['domains']['ai']} io={row['domains']['io']}",
+              f"app={row['domains']['app']} ai={row['domains']['ai']}",
               flush=True)
         with open("branding/output/availability.json", "w") as f:
             json.dump(out, f, indent=1)
-        time.sleep(2.8)  # respect iTunes Search API rate limits (~20/min)
+        time.sleep(2.6)  # respect iTunes Search API rate limits (~20/min)
     print("done")
