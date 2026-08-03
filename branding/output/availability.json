@@ -210,5 +210,102 @@
    "app": "AVAILABLE",
    "ai": "AVAILABLE"
   }
+ },
+ "korina": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "tiona": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 6,
+   "exact": [
+    "Tiona Customer",
+    "Tiona Business"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "riona": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 12,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "rione": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [
+    "RiOne"
+   ],
+   "near": [
+    "Pizzeria Il Rione",
+    "intoRioneSanit\u00e0",
+    "RioNet Tv"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "kelu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "nalo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 15,
+   "exact": [
+    "NALO: AI Money & Budget Track",
+    "Nalo: Money App",
+    "Nalo",
+    "Nalo",
+    "Nalo Nest"
+   ],
+   "near": [
+    "SmartCast: Voting App by Nalo",
+    "NaloVision",
+    "Kryptz Nalo: Period Utility"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
  }
 }
