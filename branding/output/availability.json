@@ -307,5 +307,971 @@
    "app": "taken",
    "ai": "unknown(000)"
   }
+ },
+ "lovi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Lovi - AI Skin Care Scanner"
+   ],
+   "near": [
+    "Lovio - Couples App & Widgets"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown(000)",
+   "ai": "taken"
+  }
+ },
+ "tovi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "Tovi: Learn Anything",
+    "Tovi International Preschool",
+    "Tovi Score",
+    "Tovi Games"
+   ],
+   "near": [
+    "Tovie | Simple Movie Tracker",
+    "Tovivu"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
+ },
+ "veki": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "luki": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Luki: Baby Tracker"
+   ],
+   "near": [
+    "I.Luki"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "lemi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [
+    "Lemi live",
+    "Lemi: Self-Care & Meditation",
+    "Lemi App",
+    "Lemi VibroMusic"
+   ],
+   "near": [
+    "My Lemi"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "sumi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "sumi - quiet flashcards",
+    "SUMI SUMI : Matching Puzzle",
+    "SUMI SUMI : Matching Puzzle+",
+    "SUMI",
+    "Sumi: AI Manga Translator"
+   ],
+   "near": [
+    "Sumikkogurashi Farm farm game",
+    "Sumikkogurashi-Puzzling Ways"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "kalo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "Kalo - AI Calorie Tracking",
+    "Kalo: Events & Opportunities",
+    "Kalo: Macro & Calorie Counter",
+    "KALO - Calorie Counter",
+    "Kalo - AI Calorie Tracker"
+   ],
+   "near": [
+    "Kalos TV-Short Dramas & Reels",
+    "Hey Kalo AI - Calorie Counter",
+    "AI Calorie Tracker - Kalo"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "meki": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "maku": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [
+    "MAKU - Tokachi Makubetsu",
+    "Maku: Food & Allergy Scanner",
+    "maku"
+   ],
+   "near": [
+    "MakuSafe"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "tunu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Tunu: Invoice Maker"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "leli": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": [
+    "Libhayibheli LeliNgcwele"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown(000)",
+   "ai": "taken"
+  }
+ },
+ "varo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Varo Bank: Online Banking"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "toko": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "Toko: AI English Tutor",
+    "Toko Messenger app",
+    "Toko - Build Your Online Store"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
+ },
+ "mesi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
+ },
+ "rima": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [
+    "RIMA",
+    "RIMA BEER & BISTROT"
+   ],
+   "near": [
+    "RIMAS Mobile"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "valu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [
+    "Valu"
+   ],
+   "near": [
+    "myValU",
+    "Value Sports: Sports Betting",
+    "Jewelry Identifier & Value",
+    "MM2 Values",
+    "Colorvalue - Get color values"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "yala": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [
+    "yala \u2013 \u05de\u05d1\u05e6\u05e2\u05d9 \u05d4\u05e8\u05d2\u05e2 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05e4\u05ea\u05d0\u05dc\u200e",
+    "Yala Mi Telef\u00e9rico",
+    "Yala",
+    "YALA EVOLVED PILATES"
+   ],
+   "near": [
+    "Yala!"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "kore": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [
+    "KORE-KoreaRestroom",
+    "Kore Studios Pilates",
+    "KORE KSA",
+    "Kore - The Fitness App",
+    "KORE - Your AI Fitness Partner"
+   ],
+   "near": [
+    "KorePro",
+    "Studio Kore",
+    "KoreHealth",
+    "my Kore",
+    "KOREOTG \"Fitness-Workout App\""
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "taken"
+  }
+ },
+ "muli": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 18,
+   "exact": [
+    "MULI: Photo Editor & Collages",
+    "Muli",
+    "Muli"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "tolo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Tolo - App",
+    "TOLO Driver",
+    "Tolo SuperApp",
+    "Tolo Singles Connect",
+    "TOLO - Buen Caf\u00e9"
+   ],
+   "near": [
+    "Tolo.Social"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "tule": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Tule Rewards"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "rano": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [
+    "Rano Air"
+   ],
+   "near": [
+    "RanoNet NG"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
+ },
+ "bele": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [],
+   "near": [
+    "Beles Fitness"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "nolu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "NOLU: Pregnancy Checklist"
+   ],
+   "near": [
+    "Nolu's"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "tali": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Tali AI",
+    "Tali L&D"
+   ],
+   "near": [
+    "Talie Mondiala"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "taken"
+  }
+ },
+ "lanu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 6,
+   "exact": [
+    "Lanu"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "mamo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "Mamo Business",
+    "Mamo: Viral AI Photos",
+    "MAMO College, Manassery",
+    "MAMO : Solo Senior Safety",
+    "MAMO Alumni"
+   ],
+   "near": [
+    "MamoBall - Soccer Game",
+    "MamoVN - Ki\u1ebfm Ti\u1ec1n Online - Gom Xu Online - Guide"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "neli": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "palo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Palo: No-Contact & Breakup",
+    "Palo Alto Link"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "keme": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown(000)"
+  }
+ },
+ "nodo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "Nodo Watch",
+    "Nodo Watchdog",
+    "Nodo Donuts: Order & Pay",
+    "Nodo Visit",
+    "Nodo Ramen"
+   ],
+   "near": [
+    "NODO.ia"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "vene": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [],
+   "near": [
+    "Nettivene",
+    "U Passa e Vene",
+    "Wqpfnd Vene: Resin Metric",
+    "M\u00f6kki & Vene",
+    "Venee"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "maka": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "Maka Kids Beta: TV for Growth",
+    "Maka Connect",
+    "Maka - Word Crush Puzzle",
+    "Maka",
+    "Maka Wallet"
+   ],
+   "near": [
+    "MAKA\u8bbe\u8ba1-\u6d77\u62a5\u8bbe\u8ba1&H5\u9080\u8bf7\u51fd\u5236\u4f5c",
+    "MakaMeets: Friends & Events",
+    "Kupony do Maka Lite"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
+ },
+ "telu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [],
+   "near": [
+    "My TELUS",
+    "TELUS Business Connect\u2122"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "karo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Karo: Tasks, Todo List Planner",
+    "Karo Wallet",
+    "Karo Global",
+    "Karo Taiyari"
+   ],
+   "near": [
+    "CashKaro - Cashback & Coupons",
+    "ShareKaro - Fast File Sharing",
+    "ShareKaro: File Share & Manage",
+    "Karos - Commuter carpooling"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "meri": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "MERI",
+    "MERI GROUP OF INSTITUTIONS",
+    "Meri \u0441\u0430\u043b\u043e\u043d \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+    "Meri Apni Dukan",
+    "Meri Dairy Milk App"
+   ],
+   "near": [
+    "MeriTrade",
+    "Meriwest Credit Union",
+    "L'MERI Life",
+    "Meriastro",
+    "Calvary Meridian Prep Academy"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "kamo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 14,
+   "exact": [
+    "Kamo - \u06a9\u0627\u0645\u06c6 (Speed Camera)",
+    "Kamo Photo",
+    "KAMO: Hide & Seek Photo Game"
+   ],
+   "near": [
+    "Kamoviz",
+    "Kamo\u2019s",
+    "HAKI-Kamoji"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "vono": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "VONO for Lecture Recording and Lecture Notes",
+    "Vono Phone",
+    "VoNo: Vocabulary & Flashcards",
+    "Vono Smart",
+    "VONO Home"
+   ],
+   "near": [
+    "Vonos Scent"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "rila": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 15,
+   "exact": [
+    "Rila - Vibrant",
+    "RILA Events App",
+    "Rila PDF Converter Word to PDF",
+    "Rila Cleaner: Phone Cleaning"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "rubo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [
+    "Rubo Shopping",
+    "Rubo Gems"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown(000)",
+   "ai": "taken"
+  }
+ },
+ "vona": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [
+    "Vona",
+    "Vona Sleep: Music for relax"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "taken"
+  }
+ },
+ "tole": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "sela": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "SELA \u2014 \u043e\u0434\u0435\u0436\u0434\u0430 \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
+    "SELA SUPER APP",
+    "Sela - Real talk with AI"
+   ],
+   "near": [
+    "Sela+"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "loka": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Loka Share: Send Address",
+    "Loka - \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u044f\u0434\u043e\u043c",
+    "LOKA ORDER",
+    "LOKA: Discover Local",
+    "LOKA \u2013 Wir lieben Regionales"
+   ],
+   "near": [
+    "iLoka Food \u2013 \u1ee8ng d\u1ee5ng \u0111\u1eb7t m\u00f3n",
+    "Traveloka: Book Hotel & Flight",
+    "LokaBank"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "tola": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 14,
+   "exact": [
+    "Tola: AI Photo & Video"
+   ],
+   "near": [
+    "Tolan: Your Friendly Guide"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "pobi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 15,
+   "exact": [
+    "Pobi",
+    "Pobi - Budget Tracker"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "nidi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 23,
+   "exact": [
+    "Nidi Secondary School",
+    "Nidi Pizza"
+   ],
+   "near": [
+    "NidiDrive",
+    "NidiDriver"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "toka": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 18,
+   "exact": [
+    "Toka tu Pago",
+    "TOKA Network \u2014 \u0437\u0430\u0440\u044f\u0434\u043d\u0456 \u0441\u0442\u0430\u043d\u0446\u0456\u0457"
+   ],
+   "near": [
+    "Aesthetic Toka - Outfit Ideas"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "kepi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Kepi",
+    "KEPI"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "unknown(000)"
+  }
+ },
+ "taru": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [],
+   "near": [
+    "Shree Taru Jewels",
+    "Idemo na Taru",
+    "SankalpTaru HUGE"
+   ]
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "unknown(000)",
+   "ai": "unknown(000)"
+  }
+ },
+ "damo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 16,
+   "exact": [
+    "Damo Pasta Lab",
+    "DAMO: Voice, Photo, Text Notes",
+    "Damo Zen"
+   ],
+   "near": [
+    "Damo+"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "voli": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Voli locks",
+    "VOLI: The Volleyball Hub"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "leme": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Leme Col\u00e9gio",
+    "Leme Supermercado"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "vako": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "VAKO"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
  }
 }
