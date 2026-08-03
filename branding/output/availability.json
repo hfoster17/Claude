@@ -182,5 +182,33 @@
    "app": "taken",
    "ai": "taken"
   }
+ },
+ "kirone": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 14,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "kirona": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [
+    "Kirona Job Manager"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "unknown(000)",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
  }
 }
