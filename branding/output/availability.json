@@ -161,9 +161,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "solu": {
@@ -178,7 +178,7 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "taken",
    "ai": "taken"
   }
@@ -206,7 +206,7 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "AVAILABLE",
    "ai": "AVAILABLE"
   }
@@ -280,9 +280,9 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "nalo": {
@@ -305,7 +305,7 @@
   "domains": {
    "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "lovi": {
@@ -321,7 +321,7 @@
   },
   "domains": {
    "com": "taken",
-   "app": "unknown(000)",
+   "app": "taken",
    "ai": "taken"
   }
  },
@@ -341,9 +341,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "veki": {
@@ -499,7 +499,7 @@
   },
   "domains": {
    "com": "taken",
-   "app": "unknown(000)",
+   "app": "taken",
    "ai": "taken"
   }
  },
@@ -513,9 +513,9 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "toko": {
@@ -532,7 +532,7 @@
   "domains": {
    "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "mesi": {
@@ -543,9 +543,9 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "rima": {
@@ -582,9 +582,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "yala": {
@@ -627,8 +627,8 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
+   "com": "taken",
+   "app": "taken",
    "ai": "taken"
   }
  },
@@ -644,9 +644,9 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "tolo": {
@@ -699,7 +699,7 @@
   "domains": {
    "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "bele": {
@@ -729,9 +729,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "tali": {
@@ -747,8 +747,8 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
+   "com": "taken",
+   "app": "taken",
    "ai": "taken"
   }
  },
@@ -784,7 +784,7 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "taken",
    "ai": "taken"
   }
@@ -828,7 +828,7 @@
   "domains": {
    "com": "taken",
    "app": "AVAILABLE",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "nodo": {
@@ -866,9 +866,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "maka": {
@@ -891,7 +891,7 @@
   "domains": {
    "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "telu": {
@@ -905,9 +905,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "karo": {
@@ -975,8 +975,8 @@
   },
   "domains": {
    "com": "taken",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "vono": {
@@ -1030,7 +1030,7 @@
   },
   "domains": {
    "com": "taken",
-   "app": "unknown(000)",
+   "app": "taken",
    "ai": "taken"
   }
  },
@@ -1045,8 +1045,8 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
+   "com": "taken",
+   "app": "taken",
    "ai": "taken"
   }
  },
@@ -1059,8 +1059,8 @@
   },
   "domains": {
    "com": "taken",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "sela": {
@@ -1077,9 +1077,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
   }
  },
  "loka": {
@@ -1117,7 +1117,7 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "taken",
    "ai": "taken"
   }
@@ -1152,9 +1152,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "toka": {
@@ -1170,9 +1170,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "kepi": {
@@ -1188,7 +1188,7 @@
   "domains": {
    "com": "taken",
    "app": "taken",
-   "ai": "unknown(000)"
+   "ai": "taken"
   }
  },
  "taru": {
@@ -1203,9 +1203,9 @@
    ]
   },
   "domains": {
-   "com": "unknown(000)",
-   "app": "unknown(000)",
-   "ai": "unknown(000)"
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
   }
  },
  "damo": {
@@ -1254,7 +1254,7 @@
    "near": []
   },
   "domains": {
-   "com": "unknown(000)",
+   "com": "taken",
    "app": "taken",
    "ai": "taken"
   }
@@ -1271,6 +1271,679 @@
   "domains": {
    "com": "taken",
    "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "meke": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "tevi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 14,
+   "exact": [
+    "Tevi"
+   ],
+   "near": [
+    "Tevis Mobile"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "zima": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [
+    "Zima Client",
+    "ZIMA",
+    "ZIMA Meet-cute new friends now",
+    "Zima"
+   ],
+   "near": [
+    "ZimaHighlands"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "sula": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 13,
+   "exact": [
+    "Sula",
+    "Sula update"
+   ],
+   "near": [
+    "SulAm\u00e9rica Sa\u00fade",
+    "SulAm\u00e9rica Odonto",
+    "Seepsula Pro",
+    "Sulaposten"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "mibi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "MiBi (Mind Body Integration)",
+    "MIBI Mobile",
+    "Mibi Surprise Eggs Lite"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "teno": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [
+    "TeNo Lawn Care",
+    "Teno - Itinerary Plan & Share"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "teki": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "kere": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "paru": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 21,
+   "exact": [],
+   "near": [
+    "ParuVendu - petites annonces",
+    "\u7f8e\u5bb9\u5ba48-paru"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "peli": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [],
+   "near": [
+    "Sof\u00e1, manta y peli"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "motu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 14,
+   "exact": [
+    "MOTU - Grand Rapids Parking",
+    "MOTU Skeletor: Until Next Time",
+    "MOTU AVB Discovery"
+   ],
+   "near": [
+    "Hiri Motu M(A)L"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "bonu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [
+    "Bonu"
+   ],
+   "near": [
+    "Vale Bonus",
+    "BonusFla\u015f",
+    "Bonus Per\u00fa",
+    "bonuz - Social Crypto Wallet",
+    "Loteria Bonurilor"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "savi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 18,
+   "exact": [
+    "Savi: Family Scam Protection",
+    "Savi",
+    "Savi Harborstone Credit Union",
+    "Savi",
+    "SAVI Qoralux Utility"
+   ],
+   "near": [
+    "Border SAVI",
+    "NaviSavi"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "vite": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Vite",
+    "Vite Inscrit",
+    "Vite HR People App",
+    "Vite Ma Dose !"
+   ],
+   "near": [
+    "Fintech E-Vite",
+    "En-Vite\uff1a\u5a5a\u79ae\u7c4c\u5099 \u00b7 \u512a\u96c5\u638c\u63e1",
+    "Vite.ma",
+    "ViteAchat: Buy & Sell Market"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "pebi": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 18,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "ponu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "roza": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Roza : \u0634\u0631\u0627\u0621 \u0634\u062d\u0646 \u0648\u062a\u062a\u0628\u0639 \u0628\u0633\u0647\u0648\u0644\u0629",
+    "Roza Fashion",
+    "Roza Butik",
+    "Roza: Cycle Sync Fitness",
+    "Roza EX"
+   ],
+   "near": [
+    "RozaTracker",
+    "roza78.ru",
+    "Las Rozas Village",
+    "Nona Roza",
+    "Roza.od.ua | \u041e\u0434\u0435\u0441\u0441\u0430"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "bazu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "zeme": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 20,
+   "exact": [
+    "Zeme Real Estate Rentals"
+   ],
+   "near": [
+    "Saldus Zeme",
+    "Zemen Mobile Banking"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "peme": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 17,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "konu": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 19,
+   "exact": [
+    "KONU"
+   ],
+   "near": [
+    "D\u00f6rt D\u00f6rtl\u00fck Konu Peki\u015ftirme"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "bremo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 8,
+   "exact": [
+    "Bremo: AI Flashcards"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "tance": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": [
+    "Hodiny tance"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "remon": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "migoku": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 9,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "AVAILABLE",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "botomo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 1,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "memoni": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "pical": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 18,
+   "exact": [
+    "PiCal - Pilot Calculator"
+   ],
+   "near": [
+    "Image To Video - PicAlive",
+    "PicAlive - Make Memories Live",
+    "SymmetPical",
+    "LOOPical Lite"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "finte": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "bance": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "monin": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 17,
+   "exact": [],
+   "near": [
+    "SHOP MONIN"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "velin": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Velin Wallpapers"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "boline": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 13,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "akise": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 17,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "banmo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 25,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "goomo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 15,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "nooda": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 24,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "tioni": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 10,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "minly": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 7,
+   "exact": [
+    "Minly",
+    "Minly: Calm Baby Sensory Play"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "zele": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 16,
+   "exact": [
+    "Zele"
+   ],
+   "near": [
+    "Zele\u00ae Goals",
+    "Zeles VMS",
+    "Smulboetiek Zele"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "piflo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 8,
+   "exact": [],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "tiflo": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 4,
+   "exact": [
+    "Tiflo TV"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "memie": {
+  "appstore": {
+   "status": "ok",
+   "n_results": 22,
+   "exact": [
+    "Memie - Meme Maker",
+    "Memie"
+   ],
+   "near": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
    "ai": "taken"
   }
  }
