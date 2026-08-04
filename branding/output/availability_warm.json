@@ -1,0 +1,165 @@
+{
+ "nileva": {
+  "appstore": {
+   "n_results": 9,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "luvea": {
+  "appstore": {
+   "n_results": 4,
+   "exact": [
+    "Luvea"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "movari": {
+  "appstore": {
+   "n_results": 16,
+   "exact": [
+    "Movari",
+    "Movari Fitness"
+   ]
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "taken",
+   "ai": "unknown"
+  }
+ },
+ "lekana": {
+  "appstore": {
+   "n_results": 9,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "velala": {
+  "appstore": {
+   "n_results": 8,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown",
+   "ai": "AVAILABLE"
+  }
+ },
+ "lemeli": {
+  "appstore": {
+   "n_results": 22,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "nimoli": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown",
+   "ai": "AVAILABLE"
+  }
+ },
+ "vemora": {
+  "appstore": {
+   "n_results": 6,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "luneri": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "lalana": {
+  "appstore": {
+   "n_results": 3,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "miteli": {
+  "appstore": {
+   "n_results": 23,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "nirala": {
+  "appstore": {
+   "n_results": 24,
+   "exact": [
+    "NIRALA",
+    "Nirala Indian Cuisine",
+    "Nirala Tandoori"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "simeva": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown",
+   "ai": "AVAILABLE"
+  }
+ },
+ "lipuna": {
+  "appstore": {
+   "n_results": 6,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ }
+}

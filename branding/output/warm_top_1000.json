@@ -1,0 +1,5002 @@
+[
+ {
+  "name": "wadina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ralari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mobeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sacana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "masderi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirfeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wanvuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nileva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fofuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vesbuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "semla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wolra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lesfova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "salroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lefari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "milnela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rovella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ramfa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "moreva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "landea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yelria",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "neveva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nisberi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maslova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ramla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "voseva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mutia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rissa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lonmia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nisova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "foleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mitella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losmuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rargora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "selgina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namrana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nivsova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vosana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "levderi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rerea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lorlia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vilneri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ritela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vunroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "merbora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "largia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "varla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "manneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "watuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "manbana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "liduna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "notuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalkova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lentina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "miteli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rombova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "midina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "resbuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lekana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "latuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nanfana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lannari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rervari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "luvea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mibeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "henella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "negeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "velala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sorvuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanmala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lomto",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "virora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lubina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nekova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nesvana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nisvo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rilso",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lelgeri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lasia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lufova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "melnoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirvora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lemeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "modina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fanria",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fecora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "simeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "medeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lemari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "monnari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nogova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losdeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "simeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navdia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "naloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lemria",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "liseri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vonmea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limlela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimrea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "farala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lino",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nozea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "masea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "novkova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "relora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "renlo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nosna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamca",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malmari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yerteva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nissoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "risna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lola",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "martari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "semlo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nesvo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "matela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lacuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavcari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fatora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lazella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rila",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "savcuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lelari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lano",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ravela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nebea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "seslova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavtia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "monela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limrela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lelana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "memella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "silruna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limmia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "senleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vinia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "locela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lusela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "halreva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nideva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wandala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "welmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "folela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yenvala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "weleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "femora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vamari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "misia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mokeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ninra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lomlova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rostala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nafia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavno",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "naroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mumzora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larceri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "liskela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sussina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "resea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rolzea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movlova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "menla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lascala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limlari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nigova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nenseva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rergia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rosbia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mestala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nosbeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "romkana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirmea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vorneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rospeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nisveva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vidala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mimsina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "manvia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larbana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fannora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "molmora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rerlala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nenela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "votela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larpoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ravgora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lozina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sendina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nakela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rirella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "solala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ranella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vikana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "falora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rasella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linpea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larfo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "norreli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lukari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wegova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "norneva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hotina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rolmala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "homova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movpeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ruvmana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ramcana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "laleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lapora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "neferi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lesela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lemuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mifea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lesana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nandela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nikala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lolleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirrari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rasea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namkeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vakana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "misina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalfela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mensana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vizela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "havmuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lobeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirdia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hamrana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vabora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "madeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nemsa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rivlela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalsia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hifella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navda",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lebari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mosala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "halna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "melrina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sisella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nenella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "harna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lermeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vanea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sinseva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vonella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nirdana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rabea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movpova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fomrea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "senna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "valella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "minvari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavgova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nufela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ramfana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nila",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "musmo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "momdea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vomdana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rukova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yurreva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vevnora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lesmo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lomkeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navnari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vunreri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hasmeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "winoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nomka",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "natina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wotova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "niloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "muncari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lorvana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lukea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rolo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mosoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "redela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanneri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nuboli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ralna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vemmina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vitina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rirsela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rusleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nofora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mapoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rorgeri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yutina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nirala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movgia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sigora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "norzuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "remrari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lipuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nansana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vemora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalnari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rocari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "resna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "molsea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "varleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yomdia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sesgela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fevdala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lonfuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vadeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamfora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nevina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narmana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "videla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "monmia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mokea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mimella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "romrea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vilana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "walina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wololi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vefeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sulia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "venuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ferora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "luneri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mocela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "loguna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mevia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wameva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "milderi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rivna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamlala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamba",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nisnia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namca",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mifeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wanella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "voroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanto",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vumuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "riboli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "romsa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nelana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wimova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sereva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "runlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "milina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "furova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "simkeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mageva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "licora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "miskeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lofia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "savova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wimari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nilsa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hinmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hanella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yareva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nurlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "riria",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "resvo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lormeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "memela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "melma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamlela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rotuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivlina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "livlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "himleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "romeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lolbova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ralala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nerdela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rivsa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "saloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nomlala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavsia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nilla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "volveva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wonia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "meltoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lilmina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "moseli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ledina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nasina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "funleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vonmana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivpuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nusdari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losmeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lisnari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "motella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nallia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movlo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "meria",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nollova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narpoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rasna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nazoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "remella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nosnea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "laperi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lonma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vulova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yulela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "levperi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lakina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wimlina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "naskala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nicuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "marlia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rinzana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nazeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hania",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ninzeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rilmari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wassuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sormuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ropia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "neslova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "forlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narlela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mumba",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yosela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "semova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narvo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mumoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ristora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hemleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larnoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wanro",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lagova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lusdo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maldina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "haleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ronba",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirmo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nosmea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lansana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vumella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mosela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "soroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rimka",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hulella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "randela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "magela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nusta",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "noleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivca",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "marpora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "miseli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vosmana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lismova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rimlea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "munnia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malsari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nivzea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nivza",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ligeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losmina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vomma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mareva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lelmuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vanleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "virina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lolmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fordeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "semzala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fanora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "revseri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sosnela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ninzo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rofella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "famfina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nurma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nilala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nivteva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "radova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wivora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lolco",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimdela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limda",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namzeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "revfala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wimuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "naldo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mincina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "magella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nolrala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rinea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nilruna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rovala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ralpa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "muneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "naceri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "revma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ninmala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fanloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mabia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fovuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larnia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vameri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "minleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nelo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "liboli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ralo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ninberi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rabova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nurkora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wasnuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nula",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "morba",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ralea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "silari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vafela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lorcoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sannuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "welova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "miltuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mekeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "marroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vimora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vamloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ruvbeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rimoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "riceva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lireva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movfana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yuceva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "revlala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "melova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimtea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vemdova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "moleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "reseva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nolnina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "livneva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lilala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "levia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lulari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavsana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lusina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "meldeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "samma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rolko",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rirea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yovmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nanmeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalmala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavmela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lotella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vamova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavcora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vunana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavza",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nunea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mabea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalvari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rulella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimrova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fevmuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "murrova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vinmela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hunna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "receri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "volella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "livova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "folnuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nasla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vanuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vonari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movneri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mosvana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "felbela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lafala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "netala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nirneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mebea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lacora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "volea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "morkeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vinra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ladeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "molala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "masna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nasnina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rornea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fisleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hanlea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "votala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "latala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "suvuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lomela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mibella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rampari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nemla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nisia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "luvca",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nonma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lemella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nomeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rivlana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lonteli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hogela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wosina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lasva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lonreli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lafea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ruleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "voveva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rarvo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "segeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirteli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "loslina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sulma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yaleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lilella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "luvloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sebala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fomana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nenma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lomfela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lorella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nanmia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "resdari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vamora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vireri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nanvela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hamella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "naskoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "noseva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yanno",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sicala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wokova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rosleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lelmeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lololi",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirnela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nimea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "molmoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mevari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narcoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "litina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "novbuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nessela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivlea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hocova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "numla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sucella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nasova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lovgala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fenlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "faroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "merala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "natoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nendea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sarreli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mulina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mugeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linno",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lilora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lisleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "levfeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nelro",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malneri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rania",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "morduna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "veleri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nolina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lakova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nasmo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "valra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "minroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navgia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sonsala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "relroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rasia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nakea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sareva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wetina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yafela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vivbana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rurmina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lulco",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sasella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lidana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yanzea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ninbea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "londeri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "modova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "volsia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yanela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "limmari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wovella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "racoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "morteva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "halari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mogella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "simmia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nassia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "masdari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sarela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "roleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wolina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "navana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "famina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rudeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rirlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamvia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nartuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "merpora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fescana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "salala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rasmala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nolkora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "norrea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "relguna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vumeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "memmora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "morova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalteri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nosbeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rivtina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rolzeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavmo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "meroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavnoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mireva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wisuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lintora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yoveva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nemeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yozella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "namela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fakala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rilla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lormea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maboli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lobeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "volvina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "repella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nommeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "suvmia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "leruna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vilneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lerkala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "matala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sanlova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "soteva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lafoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "ladova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lomea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rincea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linmea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "riroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mobia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nevfoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rafeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavdela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nordina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fomla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mosno",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nucuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "valna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nurala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lasfea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hommuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lisca",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "murea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "visdea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "noleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rarlana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lovtuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nevsa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "misvoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "masoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "litova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yaleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nanreva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "risma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rineva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nislela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "receli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nepala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "matia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "levala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "roroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yamova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vuslala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "maseva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lakoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirlia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "meszana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vomvala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lonoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mirla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavkuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lenina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "varrora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "monpoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "revkala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nanella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vonsina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lapoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lavmala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mevlea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lovella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "farkina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "milsuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "luvdeli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lopella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "femia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lenmeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yulala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "menso",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nenria",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vimteva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rivpea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lemsuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larkoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hanvina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "roltora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "fimlana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "madova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lilsala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "homia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narnuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hacana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "noslea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rosla",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lokana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rorpia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yaloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rarsina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lesdana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lifala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivda",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rammeri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mumela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mamoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nusma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "malfana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "movma",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "loteva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mavmora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "romra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "venreva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lostova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nirleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lirora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narnana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lislo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "moveri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nonnuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "madeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mitela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yurra",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lagia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "raneli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lanela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "liloli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nursala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "narella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nolzeva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wovlora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lenrela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mula",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lamari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vorora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lalova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "soduna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sevora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nufana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "linruna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vafala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vinleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lunreri",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yemora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nivuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "segela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mevdo",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rilsa",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sameli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nalro",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "mivora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nulbina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lilleli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rileli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "munna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nuscela",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "larneva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "yasmova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nadia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "losmoli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "molneva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hilfora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hilgova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rumova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "hummora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "reslina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lopova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "rolella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "normea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "wilala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nestova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nivella",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "melsuna",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nateli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "vedala",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "nendia",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "roneva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sombana",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lodova",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "herrina",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "remfari",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "latora",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "meleva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "lono",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "raveva",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "waroli",
+  "score": 100.0,
+  "generator": "W1_soft"
+ },
+ {
+  "name": "sumvea",
+  "score": 100.0,
+  "generator": "W1_soft"
+ }
+]

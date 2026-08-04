@@ -1,0 +1,162 @@
+{
+ "wiven": {
+  "appstore": {
+   "n_results": 2,
+   "exact": [
+    "Wiven"
+   ]
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "grendy": {
+  "appstore": {
+   "n_results": 2,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "nindel": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "tovell": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "brelle": {
+  "appstore": {
+   "n_results": 4,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "beamle": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "trucket": {
+  "appstore": {
+   "n_results": 21,
+   "exact": [
+    "Trucket"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "marrin": {
+  "appstore": {
+   "n_results": 18,
+   "exact": [
+    "Marrin Costello"
+   ]
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "taken"
+  }
+ },
+ "primmy": {
+  "appstore": {
+   "n_results": 0,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "kinnel": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "mirrey": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown",
+   "ai": "AVAILABLE"
+  }
+ },
+ "wibow": {
+  "appstore": {
+   "n_results": 25,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "brigie": {
+  "appstore": {
+   "n_results": 2,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "unknown"
+  }
+ },
+ "rillar": {
+  "appstore": {
+   "n_results": 2,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ }
+}

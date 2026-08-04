@@ -1,0 +1,10002 @@
+[
+ {
+  "name": "grower",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "criler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flestler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kondet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pobel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bisen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "totick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spigon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "duttip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "friron",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tridie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bupply",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bumel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whasey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wifflet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trikow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flopplon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bustie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trimit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sloskel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "floogen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crenkon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "benle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grendy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spammin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frukock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blallel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shestin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flodit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nadden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "leble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "battie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prumon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kinnel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fruwow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "primmy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frewen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prater",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "farick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "midan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sleler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thugle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shodit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "roney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wibow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boumon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yowgock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spegin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rimmin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "senkin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bostlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slowsam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brigie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grison",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brottet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rillar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brippel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bladow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plugar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cummey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pranan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shiwell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trirle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cickley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "guckit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mallar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shammor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stuttow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grunle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dipplon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drostow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "soster",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crallow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trucket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kanam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drendlam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brankom",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vastle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glimblet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chazet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sweper",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plawet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pomit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bowttow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stummer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frombet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleekle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "froolick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blutick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plezow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lomblit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jafflon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrivle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brodder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twonnle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nownnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flomblel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleandin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clelam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plebow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rivit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crosip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lisket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wottler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiven",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chinell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blapie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blallen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dredle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "breffen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flullel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skilel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plepow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pronan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bowppon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thilip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vimmer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mirrey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blison",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stewock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trepan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clopel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "filock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prounon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tridon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bozzlar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plizzlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mouney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slanny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mestin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nestar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cliwle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blickor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skiffet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brestow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dranglon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brullell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wolar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plembit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fitow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gimblen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "villen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glockin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crandell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moaston",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stiror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gowpick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frenie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "keapet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frazzlip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glanny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beamle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "keren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "staben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slosock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thaddip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drannet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "niller",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "niedor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "maner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "browpy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tromow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flendip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "niewer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whankel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gruvor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ruzzlan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grifflon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whemen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plazell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mavit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pligle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flarock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spiwick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brelip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blustor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swudel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brubey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "primblan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flistlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flizum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blondon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crovie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sniffam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spastin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stibon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fralell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flerren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "malon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sninor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bridell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frekan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prambon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "relin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "finkit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nukow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tuppy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drinden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "banell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blalell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snavell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brelen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rimon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slemow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "hennow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gletet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fewle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spiddy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pramblor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dimben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "leemor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crowple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pridon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bastlit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "posin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thorin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swosey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sweran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whinnel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whoumy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jippy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tettle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thisow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gregow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "truty",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whustick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "triry",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mimmick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skanock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blisow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "walell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "premum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clitit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spomle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dradel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "macklan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dretick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "parram",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glockel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skaler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pevle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wipin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plaskan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brinar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snelle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gecklar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "foundor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blistip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "badan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stumbon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "buden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gristy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mannip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "puddan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prevle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bairen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bloble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "traskell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "citten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wondlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clommen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fegan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blettock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broasin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mottey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shunell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "batan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moskle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrikon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "therle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "landen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleaton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mittlel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chendet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wimmet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gestey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brelle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twanden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pomblet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prembit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "driran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gockar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kabor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brasit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glinner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shenkon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cliber",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moolle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beezow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wifflip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snewip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "freavow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spawle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "neffey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "griddy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bremblit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blasin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nenkit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kiddip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grennor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nindel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blugum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broolie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "heppin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tharle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tovell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snebam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flonglin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "powlit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stolon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drimbel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pruttle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clottit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rendin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flindup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glurel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clunow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "monnet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vickle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nidin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "powin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ninick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lewin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "druzow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "topplam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frestip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "traple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mickan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gettlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brallam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "koppar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grerick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drendow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "groton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vackey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cremmer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pagick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stopar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slotow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "suffam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stirow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nambip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spembey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brackow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "truvet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brendy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "melit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spammen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrugock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kimmen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snodey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sluzor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rastlick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gribock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "buttle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drebam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ponor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meekon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "posock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clinet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "femin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "biper",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fritell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sniffer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bleerel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trinken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swimmon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tralen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stottel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flinnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nabar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mowmmey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prany",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frougam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nottlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "soffow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "decklow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrumy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drembit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mimmle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "poger",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crasick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "burit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ramle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "floppen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blendie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nocky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kegen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trolel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "backon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kaibam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "marrin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "praror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stamit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lalon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ploppen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "floolon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yenner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bramblet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stuttle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "keckey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wizzley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drestie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blosker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "doddet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nillen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sweter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wovon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blidle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rurel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jittin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrenker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twamick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wuppen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clacker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "briewick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vunnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "manken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blimble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thurip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wuner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bewick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pewet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mozzlit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grestey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "platle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spatan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "leackan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pritty",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shador",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bemmip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lalle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "candlor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kuttick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snarow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "manen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lickip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stitam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "famle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "roffle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mivon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crilow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broutell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snonket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clamet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kostey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flockom",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "friban",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plonar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lamblet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grinnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slesan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peazin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chagar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kinon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nofflan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pamip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swunan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "naffell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fennet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bleepow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wickey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gollen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flitten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plillit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swarel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rappet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nuram",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nalow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "loskie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ploodle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bimblip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chanket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cruttor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crawer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broffen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "resow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plarar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fealle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trevy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleewip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prerey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "switey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "loffen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swapen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nelip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trozle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "podock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flindlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blarren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slumblor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bilel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "climen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flairle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proater",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meset",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skomen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brirle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flounin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bonin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nucken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "westet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prowen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "leddam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vindlam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brankan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mackon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sowrle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jurrle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broalit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "welip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "braler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bondlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crerer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pambock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pippit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lunnle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "neckow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slany",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "briple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twunen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plamon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brinon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blannot",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bavow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plupam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "foken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sendon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glullin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrinow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nousey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "barar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrolick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trobow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plembet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stalley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "baimell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blittan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wresick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bramby",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glenner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "poockan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "towrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frovle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vondle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thivin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spakock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "relen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bledon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twisle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grilon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flagel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thondip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pracklon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frattly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "naskor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "praney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bannle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "witow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flinney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kammy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brobit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glibey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kongler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thibock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beskon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cruner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glonnor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fipple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meevin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prenkip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dattle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blottlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pasen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crutten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bronan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spennor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blegle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bragell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleddam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plebick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "greffit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrowby",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drannip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drader",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pluwub",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mailen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lalow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rustlell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beekin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yellan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kengly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twokell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mitar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "semblan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crattar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snupin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rottock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skunet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crinip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bleelow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mitton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "premmit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sownick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lettell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frober",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swirin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nombow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plenglit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chacken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiskow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glolen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "linick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "barry",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fluffet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bladdey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mobit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wreble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "woumbin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twemmip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "koppy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lazit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grinket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bramle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blunel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clenar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nickip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pidin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bidor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cawick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kilet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bimar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flutie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "naman",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nenar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "treffip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spinney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bupen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flippell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pondley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peamber",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slilon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plipow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glonny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kealow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bolen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "westie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "breppey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drondin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drorram",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nuffley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cibick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "treeky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clamin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrestam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cridit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slason",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bruly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blonnen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slonie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bopply",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yiffen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gregle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rindler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glibip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flallan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dragick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plinnie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sestip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spivey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kemblor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drowdit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bragick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noasel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peeckow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chetel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blaner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peendy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twapper",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nommen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lanar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bitton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prieder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trosey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beastar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rottlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "branock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cratle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "londlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wownick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fiffly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thamle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prorrel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clamen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "creffet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gralen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brunker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "keney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jambam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "floror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brunkell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pregit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chester",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crummow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "henkell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trowle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "penor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lowser",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nimbick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pinnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clownkam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wippin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fouret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shenket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "weppel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "riffer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yinnip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wanglan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "liden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glulick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grozit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wribar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prumick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dogick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tellin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flomon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "daffet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wuvey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grulock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pralin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chettar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "remblie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trinel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "woupam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glerrit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bopplin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mousle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bappor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "limmy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "farren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "werell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "limip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bronkle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crimbit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drokow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crenkle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wudet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flendub",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "costin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fanin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bigan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flepplar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ploundit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "muvow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mankey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "litin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "momow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shankle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bramum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pastlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "friler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plomy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plulon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brattlam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "troowy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stonky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gastick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blummy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sheley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snanle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beser",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lotet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spalit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clowy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prurrle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "briffar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trenglin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "luttlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frenick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slopit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blimmle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drodow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drockel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleeden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gambor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chadow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bruron",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "braston",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bivock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brurin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "veckey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brinow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fegow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skuppon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shikar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cupplen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plavar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plizin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wropple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frindlel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thankor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sipell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fruvel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mimock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plattel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gesty",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blouple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bokle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stagle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prirow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flittit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tristell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clelit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "romit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pomar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shoffam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nilan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bralip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prembom",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mirrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frindell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boukor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wusen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "foter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "buvan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "natter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "durret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "juppy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flimblet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yoppow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mounor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrebick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drostet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bowmbam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mowlel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gettit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brastet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trappor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brekow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grandow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shummor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pragan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stivon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "hoffam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moondey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stesow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fostly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrimer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trostle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rafflin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twimben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spimbar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frusum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fowter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "poutar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spoget",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blestow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prizow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wegle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "karip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swozer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broobin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "holle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flemblon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blaget",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gralet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grullon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleabar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shozick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "womblan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swekar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fratick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blaimmor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grepip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prallin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jattlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plepell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "memmey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrinker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brinnip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crovock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plaver",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yoffle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twinip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blittie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whower",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slemmar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stimbar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jumber",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bonglor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frunin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sowtar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nistit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lupplon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cruwer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yanken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flidet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drodip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drulell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kewin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "heckin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pekan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blounner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slollon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prennel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skuttam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bonglie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nonny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gestlip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broupen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kaver",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "weemby",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stolle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drunnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrippy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "giston",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "funglell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broodit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shakow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mamby",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brirrow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thawam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nenden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plonder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yafflip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "petey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chamle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stiddle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blestot",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nuttlick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plurren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shener",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yaffle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "niren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blomon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brallell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stoppow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lollow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kezey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lowmer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boundow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wievam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ninkock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "woandit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shizle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "micklie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "musle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gifflon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "firrit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brusten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fazon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mefflel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crobet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lasin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "finnet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fralam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vobell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meawon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twakor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mewle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bropie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nuset",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flekle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stettet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thetty",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swaddin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chibey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nemman",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "letel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flottlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "caffon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bappy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fuffley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whitie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stusy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "socklip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tridy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiwle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clonkel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crowwet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blenup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bremip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vowzer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pevip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brellon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "timmey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drudell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kandet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vowmar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swodon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mumle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fletle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nivet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tocker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sakell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brittin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clestlan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glicklen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chamit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flirren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tippan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pladdel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wockly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swiret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drety",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glambin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wombam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bedel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moddell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rownner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kagon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blowow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kilick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fittlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brebell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "viskan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rofflel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wifflam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plamen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beackin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cheson",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plappar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blorie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "reatton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "londen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "minkow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plasow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "makin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crully",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "repon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mattar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tistel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pillie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pimen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blaigow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trary",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "goskip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fliron",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plillel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shorow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slikar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pepam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drikel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brindey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blannel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slusten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pubip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pimle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swellam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slober",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lafflin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wulon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sollon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "veckon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sherock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ponock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "precklin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tinny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frogen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vellow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sandin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sorren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brenden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kouton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nouwan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blosie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thodder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drilon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prilan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "larrin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tosten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crackie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "riffet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kockle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "battow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bouckit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "megow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pralick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blickow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vankow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fowzer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whamman",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "propip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broutet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stollip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thobow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peelin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drepow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nimet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "feger",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swaddey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "baigell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plalum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "feetor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "neasar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crirel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cradden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brottum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brovell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whinkow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "craret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moapell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plamot",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "womell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swuffer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleddet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "winip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fretale",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clowmmip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sheket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ploger",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bleeben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crolam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brunon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frimblar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nirell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fouset",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "binnle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nerock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bliten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dinick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "braffot",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brelet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "foror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brenock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brifflel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stackan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clodam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brarar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chabel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grovick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glirrin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shomin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dembon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "foonky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skutten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "preeker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whunen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "roolam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mitip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sliry",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tundlar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blainar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clellon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nutow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiskey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crenit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swipam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nocklen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sowtor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "berrel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nuttel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drirey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blirren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gocklen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mobell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skenkam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grollel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shettip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drallen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mienkow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wokan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "hinky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skarey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fikock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yundell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "loddan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "progen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swomel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bindock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grotar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brizzlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fratub",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wharey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prawin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trerle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blamit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swudam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kaman",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wruvor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fander",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fliddit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plonkar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cherle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mottlet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clolen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proonle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "womow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pammer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trepit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mattor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proaple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blipplow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wocklon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snimbey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clorrit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drottley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frandel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boader",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whemmel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rebet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "listlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whiffam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kallel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drupey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snoger",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cromer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bezzlick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "razzlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flivar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swusen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleavip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "podle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mestlet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "parron",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fremmy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grimber",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prewy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yustlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plapplon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frapplan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glackan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "datten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yestell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bradel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whisick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spundey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mooter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bralon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "hapock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fluny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nofflin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nowpip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lagan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pieram",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kegle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sumblon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drandow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "feckey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blanot",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "badar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fopplick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lemben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lenin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wofflor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plulan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bropplel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tradell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spenkow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pidell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brocklie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pindow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nondow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flittow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twugock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pebick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rosle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brarram",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bezzlan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flafflor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sponow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "keder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vallen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dreker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clavell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bringlan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lonnon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "simmor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wazzlit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thepen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tremell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wolip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slukit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kibor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lurow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plammon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spimet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pudle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kestlell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blimmit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plettlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blafflen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nattick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tatter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nenle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prollam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fistlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flailar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "donny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "briskle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "joppley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tipock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kinen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "backley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "browlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beckell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plemmel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whowpy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "troder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blullar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frucky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mimbar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sattow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mettlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boanner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slunick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prouffin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skenkow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rownell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pripey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "candlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "futow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "britum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skimle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plidder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slimip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "reken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rirrell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lizel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blunkam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frackow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pedell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trevar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trabie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "costen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "relon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "venkan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lodow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fladell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wroffow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fratle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pasick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plimer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wosten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "randel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "murer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "besin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gladip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiskock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tammle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brostow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "closit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jestam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pestlit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glennor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pirrick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleeton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bledow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clunket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "donky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noudin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crutle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pleerer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fesow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dimbon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blesel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kimle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flounam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nolow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bestlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "timbet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bratock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plindin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cutock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tappar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brunle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clorow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fladock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grondlen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "witter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "luttam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clanel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rigle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meegick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chiwey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frilum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blekit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "toppor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "hondy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thrudy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "backle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skavow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "weacky",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blepple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "waler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fledel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gumbel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lellie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stinick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clickle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frady",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleamip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drinnan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brasick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stilon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nepplon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "funkle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lorret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleenen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nirel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "battor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tretan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "baivey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trindlar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bowken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dupplen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spacken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blurrle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stendin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "weedan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fowgey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grecklam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bigle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cherel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prunnom",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stowlar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plinnet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prondel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "romblie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brolin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleegan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "redet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thonan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tammin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prummer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "leckan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clodle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whesick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glorran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fraindey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "conkle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meappy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yoffet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plappup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moondle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "neanow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gembler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bretle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whottet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "guckle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spunnle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "naiddy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whastet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brepplar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slilet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ploppar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "broten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nettlet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blesar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wendar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pindan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snonder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mallit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vesten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rostar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lepan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "warle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "primbow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cickow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pezzlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snille",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bresty",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cligip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gunnit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dittel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nicklip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sittip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "radle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shettar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glevle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "creety",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fumock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skamen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "floobick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blovle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spimmar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slimle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bigow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snudin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chumle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crator",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flieley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yombor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vipple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fusow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jonket",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sankan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clamber",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "hindet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mowber",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ledle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flitip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brustom",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spoffy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brotum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trekan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lowskow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "naffer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twinnle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flody",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stugow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spackip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blakub",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wimock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crastip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bricklon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tromer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tocklow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tredin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brocklin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blimbler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plizle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nelon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kovet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "miegin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tweley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "reppel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flipell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "roanen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cickin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "micklin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prondow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flaffey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drarret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frerror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skimon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pottlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stovell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mowppey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "praler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prevor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plaffler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bopplar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clostlar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stallar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrunglip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plendon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "growter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fraindor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brolub",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tretock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spegle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jendar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kippie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blowmle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stiskam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "howban",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gommy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bledel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tuddon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flaitor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prupan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nillick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "froabor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plulen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jisick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frimbick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vattlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brattum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rowty",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "breffor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gralie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dreran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peckin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "felin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brondow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brasale",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brimey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fusken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "memick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plirrel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drirry",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clowle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twasell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beckow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "haffit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trinnan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clebit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "remock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crelit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fiesin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jommen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mesle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prowon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dettlor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thanam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slonder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grembit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skiple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "showell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kirrip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "loffler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thador",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "morran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plindlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yastell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tronnar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrubick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wazle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "braley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lerle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glawick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drotor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drottly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cragie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crirret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "conglor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fownker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "graddel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pendlar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sworock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "licklon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lemblet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slimmin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twuckle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tilell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grucken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slumel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dremel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plondin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brootel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "triner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "belen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thekan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bralley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiwick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yidder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "laipon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wiekip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cholan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mosle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nezor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "primle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sheckit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "paskon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bomble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "triffar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "botip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bippon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beetin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shemit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shavit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drettow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "leamer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "treddy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prubit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drisken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wecklan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pristip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noubie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tidder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "privup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pinit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cacker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pommer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slomick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rasit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "memel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bratter",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trorey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noron",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drowle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "laiger",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crundlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pozzlam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crowtam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trafflon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prunnor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stagar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drebow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flimbly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tettit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fripar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "morrie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rorran",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pivell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "womor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blawey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "footen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lowpet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trinnen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rombon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "paffar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flolet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "faben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frattlet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frillick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drastle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "moadet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twaler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fittet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slipan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fawon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "froummle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flenglor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pealar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flombet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lallan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snuley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brefflon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ramman",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blostit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glalow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trairy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wommel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "precklon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "racken",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bleskon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kirror",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "greckle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chockip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prinden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tambell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lonney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grenkar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clazel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glister",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kutle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trutick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rambin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "shimey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glanow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pliny",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flary",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clepey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prandle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gropit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "felel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sucklow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "karrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mamet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "vifflon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "proret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bockie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bieman",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flopum",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "froorle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brabon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mippick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glemor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "belam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swaley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fanor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "waley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bligow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grommen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clombar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whuler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrany",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "magan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clizin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "romblar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "junglon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lemell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blanner",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chikit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "premam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nattlet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prankle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flopplet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "custick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clapip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bunkit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kiler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sninkle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prembick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ploppin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "druffin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prounam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chiget",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nikel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peanie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thaten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drittam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mumow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lonnam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "copple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plettlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wresell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noumer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nolen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "semmer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plindlin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "meffock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chodin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wipplen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "memle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clulick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mener",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blowdell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rinan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "creevy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glackel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yattey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stambip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tranan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bleaben",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "ponglar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twundip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lolow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prouzar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drunon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spombet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fleple",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blowsell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mibow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swenon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bullit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "munnow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blimin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bozzlit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "preager",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bromup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mubin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yaddam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "climy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slerrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fregup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kambick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peesow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snagow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yastor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drugit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blucklie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beckly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fravar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frackom",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cicklet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dreden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "monle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chidon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clallie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blezip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gondle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bopow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "greton",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swuder",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rerar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grarret",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jumbick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snavor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bomblam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mammle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prukle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "breddey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fimor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mandy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prerrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fraset",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prarock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frastam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flelet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "twaker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lennar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skolam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flirock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dremble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "befflet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fritam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clazen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "seffan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "graram",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blimen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blosot",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prillow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "prandly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "burick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plillen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "premin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "froffly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "clenden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tallock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "slomon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crattly",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tunnor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "thimel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swiren",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "boutet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brickler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cruttlon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blottell",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "swavip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrovet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dallen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "frevon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wenet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "truzy",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "koden",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "feawet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "condlow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "reppor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "beakie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noppey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "glecker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "promblen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "floodel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "climle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "jastan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "worin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skandin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plosker",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "spokow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lidar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blidor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fowvow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "warrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "sastin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snaten",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "reakle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "speddor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brerrer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "briwar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "chagle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "reanor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fannle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peffle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wippie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bowttip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "dragow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "liffip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nambley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "yannle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "simby",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fible",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grenkow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "greddam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bramip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drolen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nimbie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trockar",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "nowlle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pilam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skenon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wropplan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "skozor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "gillin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "snopen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brottie",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plinup",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "blunen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drallam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mipplin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "liskle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "pruppel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flidel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crepply",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flimmet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "puppen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "peawer",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "deckler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trowpin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "premmor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "woostin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grimblan",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "rowvam",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drippock",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "privle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "noatet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brunor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grivin",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wonnick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bluvit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "trielle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "cranle",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "brunnip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "crimbow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mombley",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "plownor",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kenney",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "stemble",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bruttet",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "bloockit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "drinkey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "fommit",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "lullen",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "praimmey",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "whucklel",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "mainick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "kankow",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "wrindler",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "grinnon",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "tresip",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ },
+ {
+  "name": "flannick",
+  "score": 100.0,
+  "generator": "E1_disyllable"
+ }
+]
