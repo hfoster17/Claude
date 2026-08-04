@@ -347,8 +347,25 @@ company, no SaaS product, and no token using the string anywhere.
 2. **Direct handle verification** on X, Instagram, TikTok, YouTube, Threads,
    Bluesky, and Reddit. Search engines do not reveal dormant squatted handles;
    these must be checked by hand. Plan for `bukiro-app` on GitHub.
-3. **Register defensively now**: bukiro.app, .ai, .io, .co, plus the misspelling
-   set (bukero, bukiru, bookiro).
+3. **Register defensively now.** Live pricing verified 2026-08-04:
+
+   | Domain | Status | Price |
+   |---|---|---|
+   | bukiro.app | available | $9.99 / yr |
+   | bukiro.co | available | $4.99 / yr |
+   | bukiro.dev | available | $9.99 / yr |
+   | bukiro.io | available | $37.99 / yr |
+   | bukiro.ai | available | $160.00 / 2 yr |
+   | getbukiro.com | available | $11.25 / yr |
+   | bukiru.com | available | $11.25 / yr |
+   | bukiro.com | **registered** | acquisition required |
+   | bukero.com | registered | — |
+   | bookiro.com | registered | — |
+
+   Core set (.app, .ai, .io, .co, .dev) is **$222.96**; adding getbukiro.com and
+   bukiru.com brings it to **$245.46**. Two of the three misspelling variants are
+   already held by third parties, which is an argument for registering the
+   available ones before the name appears anywhere public.
 4. **WHOIS and broker approach on bukiro.com** — parked with no live site, so
    likely a four-to-low-five-figure acquisition rather than a premium listing.
 5. **Native-speaker perception check** in Japanese (the 武器 echo) and in
