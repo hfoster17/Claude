@@ -100,3 +100,44 @@ Full evidence in `output/deep_screen_round2.json`. Six eliminated:
 | merepi | MODERATE, 3rd | Best legal/domain position but English parses as "mere"+"pee"; reads as Merapi volcano in Indonesia; Picture Organic ski jacket owns the SERP |
 | netimi | MODERATE, 2nd | NETOMI (~$217M-raised AI company) one internal vowel away in the same class; "net-" prefix reads semi-descriptive |
 | **bukiro** | **MODERATE — WINNER** | No trademark, app, company, SaaS, or token anywhere; only cloud is the BUKI mark family |
+
+## Round 5 — English-phonotactics pass (direction change)
+
+Feedback on the round-4 winner (bukiro): "sounds Japanese and alien." Diagnosis
+confirmed mechanically — bukiro decomposes as *bu-ki-ro*, three valid Japanese
+morae in strict CV sequence. So do naruke, merepi, and kirone. The base engine's
+open-CV structure was producing foreign-sounding names by construction.
+
+Two new engines were built:
+
+- `engine/generate_warm.py` — penalizes hard plosive onsets and Japanese-morae
+  decomposability (2,000,000 raw → 148,640 survivors). Superseded by:
+- `engine/generate_english.py` — rebuilds generation on English phonotactics:
+  onset clusters (br-, fl-, thr-), codas (-ck, -nd, -mp, -tch), and native
+  Anglo-Saxon endings (-le, -en, -er, -ow, -et, -ick). 3,000,000 raw → 436,692
+  survivors. Also expands the namespace far beyond CVCV: these names return
+  0–2 total App Store results vs. 15–25 for round-1 names.
+
+### Eliminations
+
+| Name | Reason |
+|---|---|
+| kinnel | **FATAL** — Northern English slang contraction of "fuckin' hell" ('kin 'ell). Confirmed in Green's Dictionary of Slang and Urban Dictionary |
+| nindel | Existing brands: Nindel Immobilien (German real estate) and NINDEL (Japanese preserved-flower brand, Keinet Co.) |
+| primm | Reads as *prim* (prudish/stiff) — inverts a warm brand; Primm, Nevada is a real casino-resort town; Primm is a Square Enix character in *Secret of Mana* |
+| primmy | **Not invented** — the OED lists *primmy* as a real adjective meaning prim-ish, carrying the same prudish semantics. Also niche slang for "anarcho-primitivist." Positive read as a diminutive of Primrose ("first rose") does not outweigh these |
+| rillar | Dropped pre-screen — too close to Rilla (~$79M-raised AI company), the same conflict that killed *rillo* in round 1 |
+
+### Survivors pending full screening
+
+grendy, tovell, mirrey, brigie, beamle, brelle — no company, app, or trademark
+surfaced for grendy or tovell in initial checks.
+
+### Note on screening depth
+
+The round-5 deep screen could not be completed by parallel agents: the subagent
+environment's permission handler stripped parameters from every tool call, so
+all 10 agents failed before performing any research (`wf_059971c7-718`).
+Findings above come from direct searches in the main loop and are **shallower
+than the round-1/2 agent screens** — roughly 4 searches per name rather than
+~15. Treat surviving names as pre-screened, not cleared.
