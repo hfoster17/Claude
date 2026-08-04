@@ -1,0 +1,42 @@
+{
+ "bukiro": {
+  "com": "registered",
+  "app": "AVAILABLE",
+  "ai": "AVAILABLE",
+  "io": "AVAILABLE",
+  "co": "AVAILABLE",
+  "dev": "unknown(000)"
+ },
+ "netimi": {
+  "com": "registered",
+  "app": "AVAILABLE",
+  "ai": "AVAILABLE",
+  "io": "AVAILABLE",
+  "co": "AVAILABLE",
+  "dev": "AVAILABLE"
+ },
+ "merepi": {
+  "com": "AVAILABLE",
+  "app": "AVAILABLE",
+  "ai": "AVAILABLE",
+  "io": "unknown(000)",
+  "co": "AVAILABLE",
+  "dev": "unknown(000)"
+ },
+ "naruke": {
+  "com": "registered",
+  "app": "AVAILABLE",
+  "ai": "AVAILABLE",
+  "io": "AVAILABLE",
+  "co": "AVAILABLE",
+  "dev": "AVAILABLE"
+ },
+ "pineze": {
+  "com": "AVAILABLE",
+  "app": "AVAILABLE",
+  "ai": "AVAILABLE",
+  "io": "AVAILABLE",
+  "co": "AVAILABLE",
+  "dev": "AVAILABLE"
+ }
+}

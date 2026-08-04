@@ -1,0 +1,134 @@
+{
+ "kironi": {
+  "appstore": {
+   "n_results": 20,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "lumiri": {
+  "appstore": {
+   "n_results": 19,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "manulo": {
+  "appstore": {
+   "n_results": 25,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "netimi": {
+  "appstore": {
+   "n_results": 13,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "merepi": {
+  "appstore": {
+   "n_results": 6,
+   "exact": []
+  },
+  "domains": {
+   "com": "unknown",
+   "app": "unknown",
+   "ai": "unknown"
+  }
+ },
+ "bonaka": {
+  "appstore": {
+   "n_results": 11,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ },
+ "matero": {
+  "appstore": {
+   "n_results": 25,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "taken"
+  }
+ },
+ "pineze": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "AVAILABLE",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "mavade": {
+  "appstore": {
+   "n_results": 1,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "bukiro": {
+  "appstore": {
+   "n_results": 14,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "unknown",
+   "ai": "AVAILABLE"
+  }
+ },
+ "naruke": {
+  "appstore": {
+   "n_results": 22,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "AVAILABLE",
+   "ai": "AVAILABLE"
+  }
+ },
+ "memona": {
+  "appstore": {
+   "n_results": 21,
+   "exact": []
+  },
+  "domains": {
+   "com": "taken",
+   "app": "taken",
+   "ai": "AVAILABLE"
+  }
+ }
+}

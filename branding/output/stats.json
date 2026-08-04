@@ -1,0 +1,39 @@
+{
+  "total_raw_generated": 5350000,
+  "unique_survivors": 763508,
+  "per_generator": {
+    "A_markov": {
+      "raw": 750000,
+      "survivors": 2116
+    },
+    "B_conlang": {
+      "raw": 750000,
+      "survivors": 135133
+    },
+    "C_japanese": {
+      "raw": 750000,
+      "survivors": 73405
+    },
+    "D_scandi": {
+      "raw": 750000,
+      "survivors": 1960
+    },
+    "E_latin": {
+      "raw": 750000,
+      "survivors": 144
+    },
+    "F_synthetic": {
+      "raw": 750000,
+      "survivors": 238869
+    },
+    "H_constrained": {
+      "raw": 750000,
+      "survivors": 301742
+    },
+    "G_evolutionary": {
+      "raw": 100000,
+      "survivors": 10139
+    }
+  },
+  "runtime_sec": 96.7
+}
