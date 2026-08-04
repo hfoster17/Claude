@@ -3,7 +3,7 @@
 *Mission: discover, validate, and recommend a globally ownable, iconic brand name
 for a consumer app spanning education, AI, productivity, and wellness.*
 
-Date: 2026-08-03
+Date: 2026-08-04
 
 ---
 
@@ -101,8 +101,8 @@ they are advisory, not decisive.
 | **Top 50** (App Store + domain pre-screen) | 50 | `output/top_50_after_prescreen.txt` |
 | **Top 25** (branding review) | 25 | §3 below |
 | **Top 10** (deep legal/linguistic screen) | 10 | §4 below |
-| **Top 3** | 3 | §6 |
-| **Winner** | 1 | §7 |
+| Direction change → English phonotactics | +5.0M generated | §6 |
+| **Winner** | 1 | §7 — **GRENDY** |
 
 ### 2.1 What the pre-screen found
 
@@ -190,6 +190,10 @@ Full evidence: `output/deep_screen_round2.json`.
 
 ---
 
+> **Note.** §§3–5 record the invented-international track, whose leading
+> candidate was *bukiro*. That track was superseded — see §6 for the direction
+> change to English phonotactics and §7 for the final recommendation.
+
 ## 5. Elimination summary
 
 `CHANGELOG_ELIMINATIONS.md` carries the full record. The engine's automated
@@ -209,190 +213,167 @@ screening kills:
 
 ---
 
-## 6. Deliverable 6: Top 3 recommendations
-
-### 🥇 1. BUKIRO
-
-**Pronunciation** boo-KEE-roh · three open CV syllables, stable across every
-language checked; no cluster any major phonology has to repair.
-
-**Meaning** None — a pure coinage. The -o ending reads as Romance/Esperanto
-and lands friendly rather than corporate.
-
-**Emotional positioning** Warm, round, playful without being juvenile. The
-double-plosive/liquid alternation (b-k-r) gives it snap; the open vowels give
-it warmth. It is the rare name that a seven-year-old and a thirty-five-year-old
-would both say without embarrassment — the Duolingo/Oura crossover zone.
-
-**Mascot concept** A small, round, moss-green creature with oversized eyes and
-tiny arms — closer to a Tamagotchi or a Pikmin than to a cartoon animal.
-Voice lines work naturally: *"Your Bukiro grew today."* · *"Feed your Bukiro."*
-· *"Bukiro missed you."* The name is a creature name first and a company name
-second, which is exactly the Finch pattern.
-
-**Logo direction** A single rounded **B** whose counters read as two eyes, so
-the wordmark and the app icon share one shape. Works at 16px, works embroidered.
-Palette: warm moss green with a cream ground.
-
-**Tagline ideas** "Grow a little every day." · "Small steps, big Bukiro." ·
-"Your daily companion."
-
-**Legal risk — MODERATE.** No live or dead registration for the exact string
-in USPTO, EUIPO, UKIPO, or WIPO-derived sources. The exposure is that BUKIRO
-wholly contains BUKI, a crowded live family: BUKI (Loud-Hailer Inc., Reg.
-6125219, class 9 software) and BUKI FRANCE (Reg. 6126842 / IR 79259778,
-educational games and science kits) with EU and WIPO reach. The added syllable
-and invented-word character give real distance, but a class 9/41/42 filing
-should anticipate a possible examiner citation or a watch-notice letter from
-BUKI France. **Commission a formal knockout search before spending on the mark.**
-
-**App Store risk — LOW.** No app named Bukiro on either store. The BUKI cluster
-(BUKI Beautyplanner, a BUKI word puzzle, a BUKI children's story app) creates
-some ASO adjacency, and the children's-story app shares the education vertical,
-but none is popular enough to block a listing.
-
-**Domains** .app, .ai, .io, .co all available. .com is registered but shows no
-live business — parked, so acquirable; budget for a broker approach.
-
-**Social** @bukiro appears free or dormant on X and Instagram. GitHub /bukiro
-is claimed by the developer of PECS, a Pathfinder tabletop tool — unrelated
-category, but it forces a suffixed org handle (e.g. `bukiro-app`). YouTube and
-TikTok carry a small Ugandan football account using the name.
-
-**Strengths** Genuinely uncontested commercially — no trademark, no app, no
-company, no SaaS, no token. No offensive or awkward meaning in any of thirteen
-languages. Excellent mascot and logo potential. Effortless global pronunciation.
-Broad TLD availability.
-
-**Weaknesses** The BUKI mark family is the one real legal cloud. Bukiro is a
-real place in Uganda (a subcounty in Mbarara District) and Tanzania, so a slice
-of search results is permanently geographic. Japanese speakers may hear a faint
-echo of 武器 *buki* (weapon). Stress placement needs to be locked in marketing.
-
-**Why it wins** It is the only finalist that combines an empty commercial
-namespace with genuine brand warmth. Netimi has a cleaner namespace but a
-higher-probability legal collision and a semi-descriptive "net-" prefix. Merepi
-has the best legal and domain position but two English parsing problems that a
-consumer brand cannot carry. Naruke sounds wonderful and is legally reckless.
-Bukiro is the only one where the legal risk is manageable *and* the name is
-something you would want to name a creature.
-
-### 🥈 2. NETIMI
-
-boo-KEE-roh's closest competitor. neh-TEE-mee. The namespace is the emptiest of
-any candidate screened across both rounds — no mark, no app, no company, no
-token, no handle-holder, near-zero organic web footprint. Handles look
-obtainable everywhere; .app/.ai/.io/.co/.dev all free.
-
-The problem is NETOMI: an established AI-software company (~$217M raised,
-Fortune 500 customers, active USPTO filer) sitting one internal vowel away.
-Both would recite "downloadable software featuring artificial intelligence" in
-class 9, which makes a 2(d) citation on examination realistic. Search engines
-already autocorrect *netimi* → *Netomi*, an SEO tax payable for years.
-Secondary drawback: the "net-" prefix reads as internet-era and semi-descriptive,
-which cuts against timelessness. Mascot potential is decent but softer than
-Bukiro's — *"Your Netimi"* works, but the name sounds more like a service than
-a creature.
-
-**Take it if** counsel's knockout search comes back showing NETOMI's
-registrations are narrower than expected.
-
-### 🥉 3. MEREPI
-
-meh-REH-pee. The best raw legal and domain position of any finalist:
-Trademarkia returns **zero** USPTO results, nothing in classes 9/41/42
-anywhere, no app on either store, no company or token — and **merepi.com is
-actually available**, along with .app, .ai, and .co.
-
-It ranks third because the brand-side problems are the kind a consumer company
-cannot outrun. English speakers parse it as *mere* + *pee*: "mere" carries a
-built-in belittling sense ("merely, nothing more than"), and the "-pee" ending
-invites exactly the joke you would expect from an app with young users. In
-Indonesia (280M+ people) it reads as a misspelling of Merapi, the frequently
-erupting Java volcano, and Indonesian SEO would fight eruption coverage
-permanently. Picture Organic Clothing's MEREPI GORE-TEX ski jacket owns the
-entire first page of results, so launch would begin in a SERP you do not own.
-Stress placement is genuinely ambiguous (MER-eh-pee vs meh-REH-pee).
-
-**Take it if** the priority is a clean .com and minimum legal spend, and the
-company is willing to accept the English connotation.
 
 ---
 
-## 7. Deliverable 7: FINAL WINNER — **BUKIRO**
+## 6. Direction change: from invented-international to solidly English
 
-> **Bukiro** · boo-KEE-roh · *bukiro.app* (with .com acquisition to follow)
+The §4 finalists were all open-CV coinages, and review of the leading candidate
+(bukiro) returned a decisive reaction: **"sounds Japanese and alien."**
 
-Six letters, three syllables, no meaning, no owner. It clears every hard
-criterion in the brief: short, two-to-three syllables, trivially pronounceable
-in every language screened, warm without being childish, premium enough for an
-adult to have on a home screen, and empty enough to mean whatever the product
-makes it mean — which is the property that lets a brand expand from education
-into AI, productivity, and wellness without renaming itself.
+That was mechanically correct. `bukiro` decomposes as *bu-ki-ro* — three valid
+Japanese morae in strict consonant-vowel sequence. So do `naruke`, `merepi`,
+and `kirone`. The base engine's syllable structure was producing foreign-sounding
+names *by construction*: English is a cluster-and-coda language, not a mora
+language. Kodak, Google, Slack, and Finch all carry codas or clusters; bukiro
+and merepi carry neither.
 
-Against the reference set it holds up. It has Roku's compactness and Oura's
-softness, but unlike either it has the extra syllable that makes it a creature
-name — the Tamagotchi/Pikmin quality that Finch and Duolingo turned into
-retention. It is more ownable today than any of them were relative to their
-own eras' registers, because the deep screen found no trademark, no app, no
-company, no SaaS product, and no token using the string anywhere.
+Two replacement engines were built:
 
-### Before committing — required next steps
+| Engine | Approach | Raw | Survivors |
+|---|---|---|---|
+| `engine/generate_warm.py` | Penalizes hard plosive onsets and Japanese-morae decomposability | 2,000,000 | 148,640 |
+| `engine/generate_english.py` | Rebuilds generation on English phonotactics: onset clusters (br-, fl-, thr-), codas (-ck, -nd, -mp, -tch), native Anglo-Saxon endings (-le, -en, -er, -ow, -et, -ick) | 3,000,000 | 436,692 |
 
-1. **Formal knockout search** by trademark counsel for BUKI\* in classes 9, 41,
-   and 42 at USPTO, EUIPO, and UKIPO. This is the one open legal question, and
-   it is answerable for a few thousand dollars. If BUKI France's education
-   marks are read broadly, fall back to **Netimi** (pending its own NETOMI
-   search) or **Merepi**.
-2. **Direct handle verification** on X, Instagram, TikTok, YouTube, Threads,
-   Bluesky, and Reddit. Search engines do not reveal dormant squatted handles;
-   these must be checked by hand. Plan for `bukiro-app` on GitHub.
-3. **Register defensively now.** Live pricing verified 2026-08-04:
+English phonotactics also solved the ownability problem from §2.2. Twenty-four
+onsets × nuclei × thirty-plus codas is a combinatorially far larger space than
+4-letter CVCV, and the pre-screen showed it immediately: English-shaped
+candidates returned **0–2 total App Store results**, against 15–25 for round-1
+names.
 
-   | Domain | Status | Price |
-   |---|---|---|
-   | bukiro.app | available | $9.99 / yr |
-   | bukiro.co | available | $4.99 / yr |
-   | bukiro.dev | available | $9.99 / yr |
-   | bukiro.io | available | $37.99 / yr |
-   | bukiro.ai | available | $160.00 / 2 yr |
-   | getbukiro.com | available | $11.25 / yr |
-   | bukiru.com | available | $11.25 / yr |
-   | bukiro.com | **registered** | acquisition required |
-   | bukero.com | registered | — |
-   | bookiro.com | registered | — |
+### 6.1 Round-5 eliminations
 
-   Core set (.app, .ai, .io, .co, .dev) is **$222.96**; adding getbukiro.com and
-   bukiru.com brings it to **$245.46**. Two of the three misspelling variants are
-   already held by third parties, which is an argument for registering the
-   available ones before the name appears anywhere public.
-4. **WHOIS and broker approach on bukiro.com** — parked with no live site, so
-   likely a four-to-low-five-figure acquisition rather than a premium listing.
-5. **Native-speaker perception check** in Japanese (the 武器 echo) and in
-   Uganda/Tanzania (the place name), before the first paid campaign.
+| Name | Reason |
+|---|---|
+| kinnel | **FATAL** — Northern English slang for "fuckin' hell" ('kin 'ell) |
+| nindel | Nindel Immobilien (German real estate); NINDEL (Japanese floral brand) |
+| primm | Reads as *prim* (prudish); Primm, Nevada casino resort; Square Enix character in *Secret of Mana* |
+| primmy | **Not invented** — the OED lists *primmy* as a real adjective meaning prim-ish; also slang for "anarcho-primitivist" |
+| tovy | Homophone of **Tovi** (tovi.app), a live AI learning app with identical positioning |
+| grady | **Grady Labs Inc.** (gradyai.com), a live AI education platform; plus Grady Memorial Hospital and 6 exact App Store matches |
+| rillar | Too close to Rilla (~$79M-raised AI company) |
+
+Note that `tovy`, `primm`, and `grady` were hand-proposed rather than
+engine-generated, and each collided for the same reason: hand-picked names
+bypass the dictionary and surname screens that the engine applies automatically.
+
+---
+
+## 7. FINAL WINNER — **GRENDY**
+
+> **Grendy** · GREN-dee · *grendy.app*
+
+Six letters, two syllables, solidly English, genuinely invented, and — uniquely
+across six rounds of screening — **clean on every dimension checked**.
+
+### 7.1 Screening results (2026-08-04)
+
+| Dimension | Finding |
+|---|---|
+| USPTO trademark | No GRENDY registration found in any class |
+| App Store | 2 total results, **0 exact** (Grundy Center Connect, GRI) |
+| Google Play | No Grendy app |
+| Companies / SaaS / startups / tokens | None found |
+| Surname | ~14 bearers worldwide, mostly Chile — effectively nonexistent |
+| English slang | Urban Dictionary entries are benign personal nicknames; nothing derogatory, sexual, or drug-related |
+| ES / FR / DE / IT / PT | No negative meaning found |
+| Social | TikTok @xgrendy is an active creator (56.5K followers) but holds the *x*-prefixed handle; plain @grendy appears free |
+
+### 7.2 Domains — verified pricing, 2026-08-04
+
+| Domain | Status | Price |
+|---|---|---|
+| grendy.app | available | $9.99 / yr |
+| grendy.co | available | $4.99 / yr |
+| grendy.dev | available | $9.99 / yr |
+| grendy.io | available | $37.99 / yr |
+| grendy.ai | available | $160.00 / 2 yr |
+| getgrendy.com | available | $11.25 / yr |
+| grendyapp.com | available | $11.25 / yr |
+| grendey.com (misspelling) | available | $11.25 / yr |
+| grendie.com (misspelling) | available | $11.25 / yr |
+| grendy.com | **registered** | acquisition required |
+
+Core set (.app, .ai, .io, .co, .dev) is **$222.96**. All nine available domains
+total **$267.96**. Unusually, both obvious misspellings are still free — worth
+taking while they are.
+
+### 7.3 Brand
+
+**Pronunciation** GREN-dee. Unambiguous on first hearing for an English speaker;
+no stress ambiguity, no spelling-from-hearing problem.
+
+**Meaning** None — a pure coinage. Semantic emptiness is the property that makes
+a mark legally strong (fanciful marks get the broadest protection) and lets the
+brand expand from education into AI, productivity, and wellness without
+renaming itself.
+
+**Emotional positioning** Warm and characterful. The *gr-* onset gives it grip
+and personality; the *-y* diminutive is the English suffix that turns a noun
+into a friend (Bluey, Snoopy, Buddy). It reads as a creature's name first and a
+company's name second — the Finch and Duolingo pattern.
+
+**Mascot concept** A small, shaggy, good-natured creature — closer to a friendly
+woodland thing than a cartoon animal. The Grendel echo is an asset here rather
+than a liability: a gentle monster is a richer mascot than a cute animal, and it
+gives the brand somewhere to grow. Voice lines land naturally: *"Your Grendy
+grew today."* · *"Feed your Grendy."* · *"Grendy missed you."*
+
+**Logo direction** A rounded **G** whose curve closes into a face — wordmark and
+app icon sharing one shape. Legible at 16px, works embroidered. Palette: deep
+forest green with warm cream.
+
+**Tagline ideas** "Grow a little every day." · "Your daily companion." ·
+"Small steps, big Grendy."
+
+### 7.4 Risks
+
+| Risk | Severity | Assessment |
+|---|---|---|
+| *Grendel* (Beowulf) | Low | Nearest cultural echo. Grendel-themed games exist (Grendel's Cave, Steam) but no Grendel mark surfaced in class 9. The *-y* ending distances a mascot from a monster |
+| Grendene S/A | Low | Brazilian footwear giant (owner of MELISSA), class 25. Different class, different word; low but non-zero opposition risk |
+| grendy.com held | Low | Parked; .app is a strong primary for a consumer app. Acquisition optional |
+| Grendi / Grenda | Negligible | Norwegian village; Polish surname meaning "perch/roost" |
+
+### 7.5 Required next steps
+
+1. **Register the domains now** — $222.96 for the core set, $267.96 for all
+   nine including both misspellings. Cheap, reversible, and the window closes
+   the moment the name appears publicly.
+2. **Formal knockout search** by trademark counsel for GRENDY and GRENDEL in
+   classes 9, 41, and 42 at USPTO, EUIPO, and UKIPO.
+3. **Manual handle verification** on X, Instagram, TikTok, YouTube, Threads,
+   Bluesky, Reddit, and GitHub. Search engines do not expose dormant squatted
+   handles, and a GitHub probe returned 403 (inconclusive).
+4. **File the mark** in classes 9, 41, and 42 once the knockout search clears.
+
+### 7.6 Screening-depth caveat
+
+The Grendy screen was run by direct search in the main loop (~10 searches),
+**not** the deeper parallel-agent pipeline used in rounds 1–2 (~15 searches per
+name). That pipeline failed on rounds 5–6: the subagent environment's permission
+handler stripped parameters from every tool call, so all ten agents errored
+before performing any research (run `wf_059971c7-718`).
+
+Every "no mark found" here means *no mark surfaced through accessible search*.
+WIPO Global Brand Database and TMview were CAPTCHA- or 503-blocked throughout,
+and EUIPO eSearch was not directly queryable. This is a strong signal for a
+coined string, but it is not a legal opinion. Step 2 above is the gate.
 
 ### Evidence index
 
 | Artifact | Contents |
 |---|---|
-| `output/stats.json` | Generation run statistics, per generator |
+| `output/stats.json` | Round-1 generation statistics per generator |
 | `output/top_5000.json`, `output/top_500.txt` | Scored candidate pool |
 | `output/top_100_curated.txt` | Editorial Top 100 |
 | `output/top_50_after_prescreen.txt` | Top 50 after availability pre-screen |
 | `output/availability.json` | Round-1 App Store + domain evidence (115 names) |
 | `output/availability_round2.json` | Round-2 pre-screen (12 names) |
-| `output/deep_screen.json` | Round-1 deep screen, 14 names, full evidence + URLs |
-| `output/deep_screen_round2.json` | Round-2 deep screen, 10 names, full evidence + URLs |
-| `output/finalist_domains_final.json` | Verified RDAP status, 5 finalists × 6 TLDs |
+| `output/availability_warm.json` | Round-3 warmth pass (14 names) |
+| `output/availability_english.json` | Round-4 English pass (14 names) |
+| `output/deep_screen.json` | Round-1 agent screen, 14 names, full evidence + URLs |
+| `output/deep_screen_round2.json` | Round-2 agent screen, 10 names, full evidence + URLs |
+| `output/english_top_2000.json`, `output/warm_top_1000.json` | Scored English and warmth pools |
+| `output/finalist_domains_final.json` | Verified RDAP status by TLD |
 | `CHANGELOG_ELIMINATIONS.md` | Every eliminated name and why |
-
-### Honest limitations
-
-Trademark findings are search-derived, not certified clearances: WIPO Global
-Brand Database and TMview were CAPTCHA- or 503-blocked during screening, and
-EUIPO eSearch was not directly queryable. Every "no mark found" result in this
-report means *no mark surfaced through accessible search*, which is a strong
-signal for a coined string but is not a legal opinion. Social-handle
-availability is likewise inferred from web search, which does not expose
-dormant squatted handles. Both require the manual verification listed above
-before any money is committed to the name.
