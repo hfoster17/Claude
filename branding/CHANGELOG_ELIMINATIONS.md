@@ -141,3 +141,41 @@ all 10 agents failed before performing any research (`wf_059971c7-718`).
 Findings above come from direct searches in the main loop and are **shallower
 than the round-1/2 agent screens** — roughly 4 searches per name rather than
 ~15. Treat surviving names as pre-screened, not cleared.
+
+## Round 6 — user-proposed names, screened directly
+
+Hand-picked names bypass the engine's dictionary and surname screens, which is
+why each collided. Recorded for the changelog:
+
+| Name | Verdict | Reason |
+|---|---|---|
+| tovy | REJECT | Homophone of **Tovi** (tovi.app) — a live, shipping AI learning app on iOS and Android with personalized paths, lessons, quizzes, streaks, XP and an AI companion. Identical product category. Also Tovi International Preschool, Tovi Score, Tovi Games. tovy.com/.app/.ai all registered |
+| grady | REJECT | **Grady Labs Inc.** (gradyai.com) is a live AI-assisted grading platform for higher education — AI + education + identical name. Also Grady Memorial Hospital (Atlanta), plus 24 App Store results incl. 6 exact (Grady GO!, Grady High School, Grady ISD, Grady EMC, Grady County Schools). .com/.app/.ai/.dev all registered |
+| grendy | **PASS — screened clean** | See below |
+
+### GRENDY — full screen, 2026-08-04
+
+| Dimension | Finding |
+|---|---|
+| USPTO trademark | No registration found for GRENDY in any class |
+| App Store | 2 total results, **0 exact** (Grundy Center Connect, GRI) |
+| Google Play | No Grendy app found |
+| Companies / SaaS / startups | None found |
+| Surname | Vanishingly rare — ~14 bearers worldwide, mostly Chile (Forebears) |
+| English slang | Urban Dictionary entries are benign personal nicknames; no derogatory, sexual, or drug sense |
+| Other languages | No negative meaning found in ES, FR, DE, IT, PT |
+| Social | TikTok @xgrendy is an active creator (56.5K followers) but holds the *x*-prefixed handle, not @grendy |
+
+**Domains:** .app, .ai, .io, .co, .dev all AVAILABLE; getgrendy.com and
+grendyapp.com available; grendy.com registered.
+
+**Residual risks (not blockers):**
+- *Grendel* (Beowulf monster) is the nearest cultural echo; Grendel-themed games
+  exist (Grendel's Cave on Steam) but no Grendel mark surfaced in class 9
+- *Grendene S/A* — Brazilian footwear giant (owner of MELISSA, class 25).
+  Different class and different word; low but non-zero opposition risk
+- *Grendi* (Norwegian village), *Grenda* (Polish surname, "perch/roost")
+
+**Caveat:** screened via direct search in the main loop (~10 searches), not the
+deeper agent pipeline used in rounds 1–2, which remains broken. A professional
+knockout search is still required before filing.
