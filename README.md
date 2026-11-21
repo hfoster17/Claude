@@ -143,6 +143,12 @@ Trades are classified as buy/sell using trade-at-bid/ask logic from tick-level `
 - **Halted**: Max trades per day reached
 - **EmergencyStop**: Kill switch activated
 
+## Dedicated UB Order-Flow Strategy
+
+`nt8/UBOrderFlowProfile.cs` is a standalone UB strategy that trades prior-session
+value-area rejection and acceptance, confirmed by bid/ask delta. Validate it on your own data with
+`engine/ub_orderflow_backtest.py`. See [`nt8/UB_ORDERFLOW_README.md`](nt8/UB_ORDERFLOW_README.md).
+
 ## Testing
 
 ```bash
